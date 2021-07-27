@@ -11,7 +11,9 @@ footer {
 header {
   border: 3px dashed blue;
 }
-h1,
+h1 {
+  margin-left: 19px;
+}
 h2,
 h3,
 h4 {
