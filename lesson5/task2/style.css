@@ -5,7 +5,7 @@
   font-size: 24px;
 }
 a[href][target] {
-  background-color: green;
+  color: green;
 }
 input[type="text"] {
   background-color: orange;
