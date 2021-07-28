@@ -10,10 +10,7 @@ a[href$=".com"] {
 a[href^="broken"] {
   border: 2px solid red;
 }
-/* a[lang*="en"] {
-  font-size: 10px; */
-}
-a[lang*="en-"] {
+a[lang|="en"] {
   font-size: 10px;
 }
 a[href*="www"] {
