@@ -18,6 +18,3 @@ a::after {
   content: "<";
   color: green;
 }
-a:hover {
-  color: red;
-}
