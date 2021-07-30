@@ -13,7 +13,7 @@
 }
 .main-body {
   background-color: pink;
-  width: 780px;
+  width: auto;
   height: 100px;
 }
 div {
