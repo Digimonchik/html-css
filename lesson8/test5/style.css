@@ -1,0 +1,21 @@
+.container-one {
+  background-color: blue;
+  margin: 50px;
+  padding: 50px;
+}
+.container-two {
+  background-color: yellow;
+  padding: 50px;
+}
+.container-three {
+  background-color: green;
+  padding: 50px;
+}
+.main-body {
+  background-color: pink;
+  width: 780px;
+  height: 100px;
+}
+div {
+  border: 2px solid black;
+}
