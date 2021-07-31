@@ -51,9 +51,11 @@ div {
 }
 .absolute-parent {
   position: absolute;
+  margin-right: 50px;
   margin-bottom: 20px;
 }
 .fixed-parent {
+  position: fixed;
   margin-bottom: 20px;
   margin-left: 30px;
 }
