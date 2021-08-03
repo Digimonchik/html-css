@@ -42,7 +42,7 @@ body {
 .page {
   display: flex;
   flex-direction: column;
-  height: 561px;
+  height: 560px;
 }
 .main-info {
   display: flex;
