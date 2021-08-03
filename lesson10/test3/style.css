@@ -48,6 +48,7 @@ body {
   display: flex;
 }
 .main-info-text {
+  padding-top: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
