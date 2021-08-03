@@ -48,6 +48,9 @@ body {
   display: flex;
 }
 .main-info-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
 .side-bar-header {
