@@ -5,13 +5,13 @@
   position: fixed;
   z-index: 1;
 }
-ul {
+.nav-list {
   margin-top: auto;
   height: 40px;
   display: inline-flex;
   align-items: center;
 }
-li {
+.nav-item {
   list-style-type: none;
   margin-left: 16px;
   color: white;
