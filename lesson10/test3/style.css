@@ -42,13 +42,12 @@ body {
 .page {
   display: flex;
   flex-direction: column;
-  height: 559px;
+  height: 561px;
 }
 .main-info {
   display: flex;
 }
 .main-info-text {
-  padding-top: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
