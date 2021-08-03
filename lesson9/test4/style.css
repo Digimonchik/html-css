@@ -1,0 +1,18 @@
+.header {
+  background-color: darkturquoise;
+  height: 40px;
+  position: sticky;
+}
+ul {
+  margin-top: auto;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+}
+li {
+  list-style-type: none;
+  margin-left: 16px;
+  color: white;
+}
+.main-content {
+}
