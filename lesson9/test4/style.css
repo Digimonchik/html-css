@@ -2,7 +2,8 @@
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
-  position: sticky;
+  position: fixed;
+  z-index: 1;
 }
 ul {
   margin-top: auto;
