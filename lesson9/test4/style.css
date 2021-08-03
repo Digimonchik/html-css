@@ -23,7 +23,7 @@ li {
   height: 260px;
   width: 280px;
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
