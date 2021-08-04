@@ -1,20 +1,16 @@
-header {
-  text-align: center;
+body {
+  box-sizing: border-box;
 }
 .article {
   margin: 8px;
   padding: 16px;
+  display: block;
   background-color: bisque;
+  flex-basis: 300px;
+  flex-grow: 1;
+  height: auto;
 }
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-}
-.article {
-  flex-basis: 300px;
-  flex-shrink: 1;
-  flex-grow: 1;
-}
-body {
-  box-sizing: border-box;
 }
