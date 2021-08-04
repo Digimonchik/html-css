@@ -5,8 +5,8 @@
   display: block;
   background-color: bisque;
   flex-basis: 200px;
-  flex-grow: 2;
-  height: auto;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 .articles-list {
   display: flex;
