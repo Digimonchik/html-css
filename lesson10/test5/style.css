@@ -7,7 +7,7 @@ header {
   background-color: bisque;
 }
 .articles-list {
-  box-sizing: border-box;
+  box-sizing: content-box;
   display: flex;
   flex-wrap: wrap;
 }
