@@ -11,7 +11,7 @@ header {
   flex-wrap: wrap;
 }
 .article {
-flex
-  min-width: 300px;
+  flex-basis: 300px;
+  flex-shrink: 1;
   flex-grow: 1;
 }
