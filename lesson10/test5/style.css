@@ -1,5 +1,4 @@
 body {
-  box-sizing: border-box;
 }
 .article {
   margin: 8px;
@@ -11,6 +10,11 @@ body {
   height: auto;
 }
 .articles-list {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
+}
+header {
+  display: flex;
+  justify-content: center;
 }
