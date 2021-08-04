@@ -1,14 +1,19 @@
 .article {
-  box-sizing: border-box;
   margin: 8px;
   padding: 16px;
   display: block;
   background-color: bisque;
   flex-basis: 200px;
   flex-grow: 1;
-  flex-shrink: 0;
+}
+.three {
+  max-width: 400px;
+}
+.four {
+  max-width: 400px;
 }
 .articles-list {
+  box-sizing: content-box;
   display: flex;
   flex-wrap: wrap;
 }
