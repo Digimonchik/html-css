@@ -20,6 +20,8 @@
 
 .menu-button {
   padding: 16px;
+  line-height: 32px;
+  color: white;
   background-color: darkgreen;
   opacity: 0.8;
 }
