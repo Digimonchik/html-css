@@ -1,5 +1,6 @@
-.container div:nth-child(2) {
+.visualy-hidden {
   visibility: hidden;
+  display: flex;
 }
 .container div:nth-child(3) {
   visibility: visible;
