@@ -21,3 +21,6 @@ p {
 em {
   color: gray;
 }
+a {
+  text-decoration: none;
+}
