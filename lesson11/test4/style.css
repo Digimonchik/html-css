@@ -1,0 +1,20 @@
+.text {
+  background-color: red;
+  border-bottom: dotted 1px black;
+  display: inline-block;
+  width: 100px;
+}
+.container {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.tooltip {
+  margin-top: 8px;
+  width: 100px;
+  box-sizing: border-box;
+  background-color: gray;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 8px;
+}
