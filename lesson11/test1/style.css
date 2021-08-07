@@ -1,13 +1,9 @@
-.visualy-hidden {
-  visibility: hidden;
-  display: flex;
-}
-div:nth-child(3) {
+.visible {
   visibility: visible;
 }
-div:nth-child(1) {
+.not-displayed {
   display: none;
 }
-.colored {
-  background-color: coral;
+.hidden {
+  visibility: hidden;
 }
