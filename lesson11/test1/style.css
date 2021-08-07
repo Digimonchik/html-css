@@ -2,9 +2,12 @@
   visibility: hidden;
   display: flex;
 }
-.container div:nth-child(3) {
+div:nth-child(3) {
   visibility: visible;
 }
-.container div:nth-child(1) {
+div:nth-child(1) {
   display: none;
+}
+.colored {
+  background-color: coral;
 }
