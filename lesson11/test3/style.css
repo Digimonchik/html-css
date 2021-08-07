@@ -1,11 +1,14 @@
 .dropdown {
-  background-color: green;
-  padding: 16px;
+  background-color: darkgreen;
   opacity: 0.8;
   display: inline-block;
   color: white;
   margin: 16px;
   position: relative;
+}
+.menu-button {
+  margin: 16px;
+  display: block;
 }
 .dropdown:hover {
   opacity: 1;
