@@ -30,6 +30,7 @@
   background-color: darkgreen;
   opacity: 0.8;
   padding: 16px;
+  width: 32px;
   line-height: 32px;
 }
 .menu-button:hover {
