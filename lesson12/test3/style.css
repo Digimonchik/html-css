@@ -9,7 +9,7 @@ li:last-child {
 li:nth-child(2) {
   text-decoration: line-through;
 }
-li:first-child {
+/* li:first-child {
   text-decoration: overline;
   text-decoration-color: red;
-}
+} */
