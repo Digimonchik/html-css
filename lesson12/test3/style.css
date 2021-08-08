@@ -1,6 +1,9 @@
+ul {
+  font-size: 1em;
+}
 li {
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 li:last-child {
   text-decoration: underline;
