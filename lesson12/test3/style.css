@@ -1,5 +1,6 @@
 ul {
   font-size: 1em;
+  padding-top: 2px;
 }
 li {
   list-style-type: none;
