@@ -1,6 +1,7 @@
 li {
   list-style-type: none;
   font-size: 1.5em;
+  position: relative;
 }
 .third {
   /* text-decoration: underline green; */
@@ -12,6 +13,8 @@ li {
   text-decoration: overline red;
 }
 .under {
+  top: 24px;
+  position: absolute;
   color: white;
   text-decoration: overline green;
 }
