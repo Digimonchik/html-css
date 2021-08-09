@@ -7,6 +7,7 @@ li {
 }
 .second {
   text-decoration: line-through;
+  text-decoration: overline red;
 }
 .first {
   text-decoration: overline red;
