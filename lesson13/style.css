@@ -5,6 +5,7 @@ div {
   background-position: center;
   font-weight: 700;
   color: white;
+  background-size: cover;
   font-size: 32px;
   padding-top: 32px;
   text-align: center;
