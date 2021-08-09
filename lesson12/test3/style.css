@@ -1,15 +1,10 @@
 li {
   list-style-type: none;
   font-size: 1.5em;
-  line-height: 24px;
 }
 .third {
-  border-bottom: green solid 2px;
-  display: inline-block;
-  padding-bottom: 0px;
-  box-sizing: border-box;
-  /* text-decoration: underline;
-  text-decoration-color: green; */
+  text-decoration: underline;
+  text-decoration-color: green;
 }
 .second {
   text-decoration: line-through;
