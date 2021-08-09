@@ -7,6 +7,7 @@ div {
   color: white;
   background-size: cover;
   font-size: 32px;
-  background-clip: border-box;
+  padding-top: 32px;
+  background-clip: padding-box;
   text-align: center;
 }
