@@ -3,12 +3,15 @@ li {
   font-size: 1.5em;
 }
 .third {
-  text-decoration: underline green;
+  /* text-decoration: underline green; */
 }
 .second {
   text-decoration: line-through;
-  text-decoration: overline red;
 }
 .first {
   text-decoration: overline red;
+}
+.under {
+  color: white;
+  text-decoration: overline green;
 }
