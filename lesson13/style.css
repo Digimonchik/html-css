@@ -8,5 +8,6 @@ div {
   background-size: cover;
   font-size: 32px;
   padding-top: 32px;
+  background-clip: border-box;
   text-align: center;
 }
