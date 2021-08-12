@@ -1,6 +1,6 @@
 .image-container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .main {
   margin-left: auto;
@@ -13,7 +13,6 @@ figcaption {
   text-align: center;
 }
 .gallery {
-  justify-content: center;
   display: flex;
 }
 .card {
