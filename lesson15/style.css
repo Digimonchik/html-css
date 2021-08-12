@@ -1,0 +1,31 @@
+.image-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 20px;
+}
+figcaption {
+  height: 30px;
+  text-align: center;
+}
+.gallery {
+  justify-content: center;
+  display: flex;
+}
+.card {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+.card:first-child {
+  filter: opacity(50%);
+}
+.card:nth-of-type(2) {
+  filter: blur(4px);
+}
+.card:last-child {
+  filter: invert(100%);
+}
