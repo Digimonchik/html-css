@@ -1,6 +1,8 @@
 .main-image {
   max-width: 100%;
-  margin: auto;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
 }
 .image-container {
