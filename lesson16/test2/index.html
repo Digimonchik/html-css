@@ -14,10 +14,13 @@
 
 <body>
     <div class='form-control'>
-        <input type='text' name='lastName' value='Emerson' readonly >
+        <label for='lastName'>Last Name</label>
+        <input type='text' name='lastName' id='lastName'value='Emerson' readonly>
     </div>
     <div class='form-control'>
-        <input type='number' name='age' min='3' max="10">
+        <laber for='age'>Age</laber>
+        <input type='number' name='age' id='age' min='3' max="10">
+        
     </div>
     <div class='form-control'>
         <input type='checkbox' name='agree' id='agree' disabled>
@@ -32,7 +35,7 @@
         <label for='male'>Secret</label>
     </div>
     <div class='form-control'>
-        <textarea name='description' maxlength="10" placeholder="Write description..."></textarea>
+        <textarea name='description' maxlength='10' placeholder="Write description..."></textarea>
     </div>
     <div class='form-control'>
         <button type="submit" class='my-button'>Submit</button>
