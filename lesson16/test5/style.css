@@ -2,6 +2,9 @@
   margin: 32px;
 }
 .form-control {
-  box-sizing: border-box;
   margin: 8px;
+}
+
+input[type="color"] {
+  box-sizing: border-box;
 }
