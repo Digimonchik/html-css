@@ -9,3 +9,6 @@ input[type="color"] {
   width: 40px;
   height: 19px;
 }
+input {
+  box-sizing: border-box;
+}
