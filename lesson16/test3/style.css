@@ -1,9 +1,13 @@
+body {
+  display: flex;
+}
 .checkbox {
   position: relative;
   padding-left: 35px;
   font-size: 24px;
   display: block;
   margin: 16px;
+  box-sizing: border-box;
 }
 input[type="checkbox"] {
   visibility: hidden;
