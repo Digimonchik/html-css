@@ -1,0 +1,37 @@
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 16px;
+  box-sizing: border-box;
+}
+th {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+}
+
+tbody tr:nth-child(even) td:nth-child(2n) {
+  background-color: black;
+}
+tbody tr:nth-child(even) td:last-child {
+  background-color: unset;
+}
+tbody tr:nth-child(odd) td:nth-child(2n + 1) {
+  background-color: black;
+}
+tbody tr:nth-child(odd) td:first-child {
+  background-color: unset;
+}
+tbody tr td:first-child {
+  border: unset;
+  text-align: center;
+}
+tbody tr td:last-child {
+  border: unset;
+  text-align: center;
+}
