@@ -3,6 +3,7 @@
   padding-left: 35px;
   font-size: 24px;
   margin: 16px;
+  display: block;
   box-sizing: border-box;
 }
 input[type="checkbox"] {
@@ -12,7 +13,6 @@ input[type="checkbox"] {
 }
 .checkmark {
   position: absolute;
-  display: block;
   width: 25px;
   height: 25px;
   top: 0;
