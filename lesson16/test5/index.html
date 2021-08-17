@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class='form'>
+    <form class='form'>
         <div class='form-control'>
             <input type="text" name='primaryLanguage' id='primaryLanguage' value="HTML" disabled>
         </div>
@@ -50,22 +50,22 @@
         <div class='form-control'>
             <input type='password' name='password' value='secret'>  
         </div>
-        <div class='language form-control'>
-            <input type='radio' name='html' id='html'>
+        <div class='form-control'>
+            <input type='radio' name='language' id='html'>
             <label for='html'>HTML</label>
-            <input type='radio' name='css' id='css'>
+            <input type='radio' name='language' id='css'>
             <label for='css'>CSS</label>
-            <input type='radio' name='javascript' id='javascript'>
+            <input type='radio' name='language' id='javascript'>
             <label for='javascript'>JavaScript</label>
         </div>
         <div class='form-control'>
             <input type='range' value='30' name='learningProgress'>
         </div>
     <div class='form-control'>
-        <select class='select'>
-            <option class='react' value='react'>React</option>
-            <option class='jquery' value='jquery'>JQuery</option>
-            <option class='bootstrap' value='bootstrap'>Bootstrap</option>
+        <select name='framework'>
+            <option value='react'>React</option>
+            <option value='jquery'>JQuery</option>
+            <option value='bootstrap'>Bootstrap</option>
             </select>
         </div>   
     <div class='form-control'>
@@ -83,6 +83,6 @@
         <div class='form-control'>
             <input type='button' value='Submit'>
         </div>
-    </div>
+    </form>
 </body>
 </html>
