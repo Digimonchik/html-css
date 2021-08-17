@@ -2,7 +2,7 @@
   position: relative;
   padding-left: 35px;
   font-size: 24px;
-  display: inline;
+  display: block;
   margin: 16px;
 }
 input[type="checkbox"] {
