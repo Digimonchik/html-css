@@ -1,0 +1,17 @@
+table {
+  width: 500px;
+}
+table {
+  margin: 16px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 4px;
+  border: 1px solid black;
+  text-align: end;
+}
+tfoot tr:first-child {
+  text-align: end;
+}
