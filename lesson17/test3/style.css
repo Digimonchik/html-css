@@ -46,11 +46,15 @@ td:first-child {
   border: none;
 }
 
+tr:last-child > td {
+  background-color: white !important;
+  border: none;
+}
 td:last-child {
   background-color: white !important;
   border: none;
 }
-/* tr:first-child > td {
+tr:first-child > td {
   background-color: white !important;
   border: none;
-} */
+}
