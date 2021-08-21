@@ -29,10 +29,10 @@ tbody tr:nth-child(odd) td:nth-child(2n + 1) {
 tbody tr:nth-child(odd) td:first-child {
   background-color: unset;
 }
-tbody tr td:first-child {
+tr {
   text-align: center;
 }
-tbody tr td:last-child {
+tr {
   text-align: center;
 }
 tr:nth-child(odd) td:nth-child(even) {
