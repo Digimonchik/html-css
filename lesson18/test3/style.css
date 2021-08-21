@@ -1,0 +1,19 @@
+i:first-child {
+  font-size: 16px;
+}
+i:nth-child(2) {
+  font-size: 32px;
+}
+i:nth-child(3) {
+  font-size: 64px;
+}
+i:nth-child(4) {
+  font-size: 128px;
+}
+i:last-child {
+  font-size: 256px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
