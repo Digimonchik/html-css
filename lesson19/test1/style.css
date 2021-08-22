@@ -11,8 +11,7 @@
   line-height: 100px;
   text-align: center;
   box-sizing: border-box;
-  transition-property: width, opacity;
-  transition: 2s, 0.5s;
+  transition: width 2s, opacity 0.5s;
 }
 .rect:hover {
   width: 100%;
