@@ -1,5 +1,6 @@
 .container {
   margin: 32px;
+  box-sizing: border-box;
 }
 .rect {
   margin-bottom: 16px;
@@ -9,6 +10,7 @@
   opacity: 0.5;
   line-height: 100px;
   text-align: center;
+  box-sizing: border-box;
   transition: 2s, 0.5s;
 }
 .rect:hover {
