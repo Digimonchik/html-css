@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+}
+.fancy-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  background: linear-gradient(45deg, yellow, red);
+  border: none;
+  color: white;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+  animation: jump 0.5s ease-in-out, rotate 0.5s 0.4s ease-in-out,
+    hide 2s 1s ease;
+}
+
+@keyframes jump {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-40px);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes hide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(2000px);
+  }
+}
