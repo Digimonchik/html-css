@@ -23,5 +23,6 @@
   transform: translate(-50%);
   background-color: coral;
   animation: move 2s;
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
