@@ -29,7 +29,7 @@
   border: 4px lightgray solid;
   border-radius: 100%;
   border-top: 4px solid black;
-  animation: loading 2s linear;
+  animation: rotate 2s linear;
   animation-iteration-count: infinite;
 }
 
@@ -46,7 +46,7 @@
     opacity: 0;
   }
 }
-@keyframes loading {
+/* @keyframes loading {
   0% {
   }
   25% {
@@ -61,5 +61,10 @@
     border-left: 4px solid black;
   }
   100% {
+  }
+} */
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
   }
 }
