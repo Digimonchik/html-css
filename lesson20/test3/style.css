@@ -11,6 +11,7 @@
   position: relative;
 }
 .spinner-text {
+  box-sizing: border-box;
   margin: 0 auto;
   font-family: monospace;
   font-size: 16px;
