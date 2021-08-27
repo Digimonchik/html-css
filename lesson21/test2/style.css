@@ -1,18 +1,17 @@
 .content {
   min-height: 100vh;
-  border: 1px solid red;
   box-sizing: border-box;
   display: flex;
 }
 .gallery {
   display: flex;
   width: 80%;
-  background-color: coral;
+  background-color: #fa5;
 }
 .ideas {
   display: flex;
   width: 20%;
-  background-color: aqua;
+  background-color: #5af;
 }
 .idea {
   white-space: nowrap;
