@@ -76,7 +76,13 @@ header {
   align-items: center;
 }
 .nav-list-link {
+  height: 100%;
+  width: 100%;
+  padding: 0.5em;
   color: white;
   text-decoration: none;
-  vertical-align: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow-wrap: inherit;
+  white-space: nowrap;
 }
