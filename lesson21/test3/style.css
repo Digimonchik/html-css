@@ -68,6 +68,7 @@ header {
 .nav-list-item {
   background-color: #808080;
   height: 2em;
+  vertical-align: 2em;
   margin-bottom: 0.5em;
   display: flex;
 }
