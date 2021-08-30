@@ -67,18 +67,16 @@ header {
   flex-direction: column;
 }
 .nav-list-item {
-  padding: auto;
+  padding: 0.5em;
   background-color: #808080;
   color: white;
   height: 2em;
-  margin-bottom: 0.5em;
   display: flex;
-  align-items: center;
+  margin-bottom: 0.5em;
 }
 .nav-list-link {
   height: 100%;
   width: 100%;
-  padding: 0.5em;
   color: white;
   text-decoration: none;
   overflow: hidden;
