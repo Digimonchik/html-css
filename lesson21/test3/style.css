@@ -67,7 +67,6 @@ header {
   flex-direction: column;
 }
 .nav-list-item {
-  padding: 0.5em;
   background-color: #808080;
   color: white;
   height: 2em;
@@ -75,6 +74,7 @@ header {
   margin-bottom: 0.5em;
 }
 .nav-list-link {
+  padding: 0.5em;
   height: 100%;
   width: 100%;
   color: white;
