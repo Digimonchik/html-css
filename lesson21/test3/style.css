@@ -61,10 +61,13 @@ header {
   font-size: 5vw;
   text-align: center;
 }
-.nav-list {
+.navigation {
   list-style-type: none;
   display: flex;
   flex-direction: column;
+}
+.nav-list li {
+  padding: 0;
 }
 .nav-list-item {
   background-color: #808080;
