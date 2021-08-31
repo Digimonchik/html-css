@@ -4,6 +4,7 @@ span {
   padding: 8px;
   border-radius: 4px;
   margin: auto;
+  text-transform: lowercase;
 }
 .navigation {
   min-height: 200px;
