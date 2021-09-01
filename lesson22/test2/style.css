@@ -41,7 +41,7 @@ span {
   .content {
     display: flex;
   }
-  .content div {
-    width: 33%;
+  .div {
+    max-width: 33%;
   }
 }
