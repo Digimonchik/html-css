@@ -39,9 +39,13 @@ span {
 }
 @media screen and (min-width: 900px) {
   .content {
+    box-sizing: border-box;
     display: flex;
   }
-  .div {
+  .products {
+    max-width: 66%;
+  }
+  .news {
     max-width: 33%;
   }
 }
