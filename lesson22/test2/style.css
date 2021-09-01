@@ -41,4 +41,7 @@ span {
   .content {
     display: flex;
   }
+  .content div {
+    width: 33%;
+  }
 }
