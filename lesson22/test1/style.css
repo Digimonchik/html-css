@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
 }
-body {
-}
 .container {
   display: flex;
   height: 100vh;
