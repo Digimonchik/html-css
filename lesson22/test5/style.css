@@ -90,6 +90,9 @@ header {
 img {
   max-width: 100%;
 }
+.section p {
+  margin-top: 1.5em;
+}
 
 @media screen and (max-width: 600px) {
   .main {
@@ -133,4 +136,5 @@ img {
   }
   .news {
     width: 20%;
+  }
 }
