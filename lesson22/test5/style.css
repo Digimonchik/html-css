@@ -125,4 +125,12 @@ img {
   .main {
     display: flex;
   }
+  .navigation {
+    width: 20%;
+  }
+  .section {
+    width: 60%;
+  }
+  .news {
+    width: 20%;
 }
