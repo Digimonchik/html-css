@@ -91,7 +91,7 @@ img {
   max-width: 100%;
 }
 .section p {
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
 @media screen and (max-width: 600px) {
