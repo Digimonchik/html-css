@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  font-size: 16px;
+  height: 100%;
+}
+.header {
+  background-image: linear-gradient(60deg, red, orange);
+  text-align: center;
+  color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header {
+  flex: 0 0 auto;
+}
+.main {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+  text-align: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  background-color: #e5e5e5;
+  padding: 0.5em;
+}
+.main {
+  display: flex;
+}
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+}
+.section {
+  padding: 0.5em;
+  width: 60%;
+  font-size: 1.25em;
+}
+.news {
+  width: 20%;
+  padding: 0.5em;
+}
+.units-list {
+  line-height: 1.75em;
+}
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-list-item {
+  box-sizing: border-box;
+  background-color: #808080;
+  height: 2em;
+  margin-bottom: 0.5em;
+  display: flex;
+}
+.nav-list-link {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 0.5em;
+  padding-top: 0.45em;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.my-picture {
+  display: flex;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+  margin: auto;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+  }
+  .news {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .section_one {
+    display: flex;
+  }
+  .navigation {
+    width: 20%;
+  }
+  .section {
+    width: 80%;
+  }
+  .news {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  .section_one {
+    width: 80%;
+  }
+  .news {
+    width: 20%;
+  }
+}
