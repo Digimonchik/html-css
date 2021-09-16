@@ -1,8 +1,17 @@
 * {
   box-sizing: border-box;
 }
+.html {
+  width: 100%;
+}
+.body {
+  width: 100%;
+}
 .page {
   width: 1400px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .header__menu {
   display: flex;
@@ -17,6 +26,10 @@
   flex-direction: column;
   height: 710px;
   background-color: #f3c6bd;
+  flex: 0 0 auto;
+}
+.main__content {
+  flex: 1 0 auto;
 }
 .navigation {
   font-family: "Work Sans", sans-serif;
@@ -53,7 +66,7 @@
 }
 .logo__description {
   font-family: "Work Sans", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   font-weight: 400px;
 }
@@ -138,4 +151,84 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 32px;
+}
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 130px;
+  margin-right: 130px;
+  max-height: 75px;
+}
+.partners__icon {
+  height: 100%;
+  align-items: center;
+  margin: auto;
+}
+.features__info {
+  width: 462px;
+}
+.features__caption {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #009b4d;
+  margin-bottom: 24px;
+}
+.features__header {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+}
+
+.footer {
+  flex: 0 0 auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+}
+.footer__info {
+  margin-right: 126px;
+}
+.footer__main {
+  display: flex;
+  padding-left: 130px;
+  padding-top: 60px;
+  height: 338px;
+}
+.footer__bottom {
+  height: 50px;
+  border: 3px solid red;
+}
+.footer__description {
+  width: 360px;
+  height: 85px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 18px;
+}
+.footer__navigation {
+  list-style-type: none;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+}
+.footer__navigation li:hover {
+  cursor: pointer;
+}
+.footer__navigation li:first-child {
+  margin-bottom: 18px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
 }
