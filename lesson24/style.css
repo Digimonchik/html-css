@@ -159,13 +159,30 @@
   margin-left: 130px;
   margin-right: 130px;
   max-height: 75px;
+  margin-top: 30px;
+  margin-bottom: 55px;
 }
 .partners__icon {
   height: 100%;
   align-items: center;
   margin: auto;
+  filter: grayscale(100%);
+}
+.features__side-image {
+  position: absolute;
+  top: 40%;
+}
+.features__main-image {
+  position: absolute;
+  left: 714px;
+  top: 0px;
+  height: 597px;
+}
+.features {
+  position: relative;
 }
 .features__info {
+  margin-left: 130px;
   width: 462px;
 }
 .features__caption {
@@ -181,6 +198,97 @@
   font-weight: 700;
   font-size: 56px;
   line-height: 56px;
+}
+.features__description {
+  margin-top: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+.features__customers {
+  margin-top: 42px;
+  display: flex;
+  flex-direction: row;
+}
+.features__customers_header {
+  margin-left: 15px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #3142c6;
+}
+.features__customers_description {
+  margin-top: 8px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.features__first-line {
+  margin-top: 17px;
+  margin-bottom: 17px;
+  border: none;
+  height: 3px;
+  color: #3142c6;
+  background-color: #3142c6;
+}
+.features__item {
+  display: flex;
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+.features__item_icon {
+  height: 100%;
+}
+.features__item_description {
+  margin-left: 15px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+.order {
+  height: 390px;
+}
+.order__form {
+  width: 555px;
+  margin-left: 616px;
+  margin-top: 106px;
+}
+.order__form_header {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 12px;
+}
+.order__form_description {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+}
+.order__form_submit {
+  display: flex;
+  margin-top: 26px;
+}
+.order__form_input {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 13px;
+  width: 385px;
+  height: 48px;
+  margin-right: 10px;
+}
+.order__form_trial {
+  margin-top: 10px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .footer {
