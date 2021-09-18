@@ -165,7 +165,7 @@
 .partners__icon {
   height: 100%;
   align-items: center;
-  margin: auto;
+  margin: auto 0 auto 0;
   filter: grayscale(100%);
 }
 .features__side-image {
@@ -176,6 +176,7 @@
   position: absolute;
   left: 714px;
   top: 0px;
+  width: 684px;
   height: 597px;
 }
 .features {
@@ -251,6 +252,12 @@
 }
 .order {
   height: 390px;
+  position: relative;
+}
+.order__image {
+  position: absolute;
+  top: 73px;
+  left: 224px;
 }
 .order__form {
   width: 555px;

@@ -1,0 +1,7 @@
+@import "layout.scss";
+
+.header {
+  @include for-small {
+    background-color: red;
+  }
+}
