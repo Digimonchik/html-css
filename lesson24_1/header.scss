@@ -1,6 +1,12 @@
 @import "layout.scss";
 
 .header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 710px;
+  background-color: red;
+  flex: 0 0 auto;
   @include for-small {
     display: flex;
     width: 100%;
@@ -25,7 +31,6 @@
       display: none;
       &_icon {
         border-left: solid 2px;
-
         width: 58px;
         height: 100%;
         background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
