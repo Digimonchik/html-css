@@ -1,3 +1,67 @@
+@media screen and (min-width: 400px) {
+  .header {
+    padding: 20px 60px 20px 60px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: red;
+  }
+  .header__logo {
+    display: flex;
+  }
+  .header__logo_text {
+    margin-left: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  .header__logo_description {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400px;
+  }
+  .header__logo_name {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+  .header__button {
+    width: 160px;
+    height: 48px;
+    border-radius: 2px;
+    background-color: #3040c4;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+  }
+  .header__arrow {
+    margin: auto 54px auto 11px;
+    width: 8px;
+    height: 5px;
+  }
+  .header__navigation {
+    font-family: "Work Sans", sans-serif;
+    margin: auto 0 auto auto;
+    display: flex;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0px;
+    width: 273px;
+    height: 25px;
+    justify-content: space-between;
+  }
+  .header__navigation_item {
+    text-decoration: none;
+    color: black;
+  }
+}
 @media screen and (max-width: 400px) {
   .header {
     display: flex;
@@ -38,6 +102,52 @@
   .header__arrow {
     display: none;
   }
+}
+
+@media screen and (min-width: 400px) {
+  .headline {
+    width: 754px;
+    margin-left: 126px;
+    margin-top: 81px;
+  }
+}
+.headline__info_main {
+  font-family: "Work Sans", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+}
+.headline__info_description {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  width: 456px;
+  height: 102px;
+  margin-top: 34px;
+  margin-bottom: 58px;
+  font-weight: 400;
+  line-height: 34px;
+}
+.headline__button {
+  width: 160px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #3040c4;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+}
+.headline__image {
+  position: absolute;
+  z-index: 0;
+  top: 185px;
+  left: 100vh;
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
+  border: none;
+  width: 796px;
+  height: 448px;
 }
 
 /*# sourceMappingURL=style.css.map */

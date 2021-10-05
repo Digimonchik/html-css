@@ -1,12 +1,68 @@
 @import "layout.scss";
 
 .header {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  height: 710px;
-  background-color: red;
-  flex: 0 0 auto;
+  @include for-medium {
+    padding: 20px 60px 20px 60px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    background-color: red;
+    &__logo {
+      display: flex;
+      &_text {
+        margin-left: 15px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+      }
+      &_description {
+        font-family: "Work Sans", sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 400px;
+      }
+      &_name {
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+      }
+    }
+    &__button {
+      width: 160px;
+      height: 48px;
+      border-radius: 2px;
+      background-color: #3040c4;
+      border: none;
+      box-shadow: none;
+      padding: 0;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 13px;
+    }
+    &__arrow {
+      margin: auto 54px auto 11px;
+      width: 8px;
+      height: 5px;
+    }
+    &__navigation {
+      font-family: "Work Sans", sans-serif;
+      margin: auto 0 auto auto;
+      display: flex;
+      line-height: 25px;
+      font-size: 18px;
+      padding: 0px;
+      width: 273px;
+      height: 25px;
+      justify-content: space-between;
+      &_item {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
   @include for-small {
     display: flex;
     width: 100%;
