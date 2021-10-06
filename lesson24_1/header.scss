@@ -2,12 +2,12 @@
 
 .header {
   @include for-medium {
-    padding: 20px 60px 20px 60px;
+    padding: 40px 60px 0px 60px;
     position: relative;
     display: flex;
     flex-direction: row;
     height: 60px;
-    background-color: red;
+    background-color: #f3c6bd;
     &__logo {
       display: flex;
       &_text {
@@ -77,7 +77,11 @@
         height: 48px;
       }
       &_text {
-        margin: auto 0 auto 0;
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+        margin: auto 0 auto 13px;
       }
       &_description {
         display: none;
@@ -86,7 +90,7 @@
     &__navigation {
       display: none;
       &_icon {
-        border-left: solid 2px;
+        border-left: solid rgba(25, 0, 0, 0.15);
         width: 58px;
         height: 100%;
         background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
