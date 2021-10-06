@@ -2,11 +2,13 @@
 
 .header {
   @include for-medium {
+    box-sizing: border-box;
     padding: 40px 60px 0px 60px;
     position: relative;
     display: flex;
+    width: 1400px;
     flex-direction: row;
-    height: 60px;
+
     background-color: #f3c6bd;
     &__logo {
       display: flex;

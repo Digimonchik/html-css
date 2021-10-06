@@ -1,0 +1,114 @@
+@import "layout.scss";
+
+.footer {
+  flex: 0 0 auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+  @include for-medium {
+    &__logo {
+      display: flex;
+      &_text {
+        margin-left: 15px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+      }
+      &_name {
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+      }
+      &_description {
+        font-family: "Work Sans", sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 400px;
+      }
+    }
+    &__main {
+      display: flex;
+      padding-left: 130px;
+      padding-top: 60px;
+      height: 338px;
+    }
+    &__description {
+      width: 360px;
+      height: 85px;
+      margin-top: 26px;
+      margin-bottom: 26px;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      line-height: 26px;
+      font-size: 18px;
+    }
+    &__navigation {
+      margin-left: 130px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__navigation_item {
+      list-style-type: none;
+      margin: 0;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      line-height: 30px;
+      font-size: 18px;
+    }
+    &__navigation_item li:first-child {
+      margin-bottom: 18px;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+  @include for-small {
+    &__logo {
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      &_image {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+      }
+      &_text {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+      }
+      &_description {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+      }
+    }
+    &__description {
+      display: none;
+    }
+    &__links {
+      display: flex;
+      margin-left: 30px;
+      margin-right: 30px;
+      justify-content: space-between;
+    }
+    &__navigation_item {
+      list-style-type: none;
+      margin: 0;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      line-height: 30px;
+      font-size: 18px;
+    }
+  }
+}

@@ -1,8 +1,10 @@
 @import "layout.scss";
 .headline {
+  box-sizing: border-box;
   background-color: #f3c6bd;
   position: relative;
   @include for-medium {
+    width: 1400px;
     background-color: #f3c6bd;
     &__info {
       position: relative;
