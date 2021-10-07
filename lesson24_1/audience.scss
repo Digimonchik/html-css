@@ -1,0 +1,25 @@
+@import "layout.scss";
+
+.audience {
+  @include for-medium {
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 1400px;
+    box-sizing: border-box;
+    height: 983px;
+    background-color: rgba($color: #00a1c6, $alpha: 0.07);
+    &__cards {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__card {
+      padding-top: 22px;
+      padding-bottom: 33px;
+      width: 262px;
+      background-color: white;
+      &_description {
+        text-align: center;
+      }
+    }
+  }
+}

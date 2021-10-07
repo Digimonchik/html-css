@@ -41,6 +41,10 @@
       font-weight: 700;
       font-size: 18px;
       line-height: 13px;
+      &.button_white {
+        color: black;
+        background-color: white;
+      }
     }
     &__image {
       position: absolute;

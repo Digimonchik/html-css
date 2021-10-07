@@ -1,13 +1,8 @@
 @import "layout.scss";
 
 .footer {
-  flex: 0 0 auto;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: auto;
-  display: flex;
-  flex-direction: column;
   @include for-medium {
+    width: 1400px;
     &__logo {
       display: flex;
       &_text {
@@ -31,7 +26,7 @@
     }
     &__main {
       display: flex;
-      padding-left: 130px;
+      padding-left: 60px;
       padding-top: 60px;
       height: 338px;
     }
@@ -64,6 +59,14 @@
       font-weight: 700;
       font-size: 22px;
       line-height: 28px;
+    }
+    &__bottom {
+      padding-left: 60px;
+      display: flex;
+    }
+    &__social_links {
+      margin-left: auto;
+      margin-right: 60px;
     }
   }
   @include for-small {
@@ -102,13 +105,30 @@
       margin-right: 30px;
       justify-content: space-between;
     }
+    &__navigation {
+      margin-top: 40px;
+      border-top: solid rgba(25, 0, 0, 0.15);
+    }
     &__navigation_item {
       list-style-type: none;
       margin: 0;
+      color: rgba(0, 0, 0, 0.5);
       font-family: "Work Sans", sans-serif;
       font-weight: 400;
       line-height: 30px;
       font-size: 18px;
+      margin-top: 30px;
+    }
+    &__navigation_item li:first-child {
+      margin-bottom: 18px;
+      color: rgba(0, 0, 0, 1);
+      font-family: "Work Sans", sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+    }
+    &__bottom {
+      height: 60px;
     }
   }
 }

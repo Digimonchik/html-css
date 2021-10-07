@@ -155,6 +155,10 @@
     font-size: 18px;
     line-height: 13px;
   }
+  .headline__button.button_white {
+    color: black;
+    background-color: white;
+  }
   .headline__image {
     position: absolute;
     top: 85px;
@@ -199,8 +203,12 @@
   }
 }
 
+.order {
+  background-color: #f4f5f7;
+}
 @media screen and (min-width: 400px) {
   .order {
+    width: 1400px;
     height: 390px;
     position: relative;
   }
@@ -212,7 +220,7 @@
   .order__form {
     width: 555px;
     margin-left: 616px;
-    margin-top: 106px;
+    padding-top: 106px;
   }
   .order__form_header {
     font-family: "Work Sans", sans-serif;
@@ -317,15 +325,10 @@
   }
 }
 
-.footer {
-  flex: 0 0 auto;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: auto;
-  display: flex;
-  flex-direction: column;
-}
 @media screen and (min-width: 400px) {
+  .footer {
+    width: 1400px;
+  }
   .footer__logo {
     display: flex;
   }
@@ -349,7 +352,7 @@
   }
   .footer__main {
     display: flex;
-    padding-left: 130px;
+    padding-left: 60px;
     padding-top: 60px;
     height: 338px;
   }
@@ -382,6 +385,14 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
+  }
+  .footer__bottom {
+    padding-left: 60px;
+    display: flex;
+  }
+  .footer__social_links {
+    margin-left: auto;
+    margin-right: 60px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -420,13 +431,54 @@
     margin-right: 30px;
     justify-content: space-between;
   }
+  .footer__navigation {
+    margin-top: 40px;
+    border-top: solid rgba(25, 0, 0, 0.15);
+  }
   .footer__navigation_item {
     list-style-type: none;
     margin: 0;
+    color: rgba(0, 0, 0, 0.5);
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     line-height: 30px;
     font-size: 18px;
+    margin-top: 30px;
+  }
+  .footer__navigation_item li:first-child {
+    margin-bottom: 18px;
+    color: black;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .footer__bottom {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .audience {
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 1400px;
+    box-sizing: border-box;
+    height: 983px;
+    background-color: rgba(0, 161, 198, 0.07);
+  }
+  .audience__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .audience__card {
+    padding-top: 22px;
+    padding-bottom: 33px;
+    width: 262px;
+    background-color: white;
+  }
+  .audience__card_description {
+    text-align: center;
   }
 }
 
