@@ -1,7 +1,7 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
   .header {
     box-sizing: border-box;
-    padding: 40px 60px 0px 60px;
+    padding: 40px 130px 0px 130px;
     position: relative;
     display: flex;
     width: 1400px;
@@ -63,7 +63,7 @@
     color: black;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   .header {
     display: flex;
     width: 100%;
@@ -114,7 +114,7 @@
   background-color: #f3c6bd;
   position: relative;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
   .headline {
     width: 1400px;
     background-color: #f3c6bd;
@@ -122,8 +122,9 @@
   .headline__info {
     position: relative;
     width: 754px;
-    margin-left: 60px;
+    margin-left: 130px;
     padding-top: 81px;
+    margin-right: 130px;
     padding-bottom: 81px;
     z-index: 1;
   }
@@ -169,7 +170,7 @@
     height: 448px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   .headline__info {
     padding: 35px 15px 35px 15px;
   }
@@ -201,12 +202,22 @@
     font-size: 18px;
     line-height: 13px;
   }
+  .headline__button.button_white {
+    color: #3040c4;
+    background-color: white;
+  }
+  .headline__image {
+    height: 180px;
+    width: 320px;
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
+    background-size: cover;
+  }
 }
 
 .order {
   background-color: #f4f5f7;
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
   .order {
     width: 1400px;
     height: 390px;
@@ -269,7 +280,7 @@
     line-height: 13px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   .order__image {
     width: 200px;
     height: 220px;
@@ -325,7 +336,7 @@
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
   .footer {
     width: 1400px;
   }
@@ -352,7 +363,7 @@
   }
   .footer__main {
     display: flex;
-    padding-left: 60px;
+    padding-left: 130px;
     padding-top: 60px;
     height: 338px;
   }
@@ -387,7 +398,8 @@
     line-height: 28px;
   }
   .footer__bottom {
-    padding-left: 60px;
+    padding-left: 130px;
+    padding-right: 130px;
     display: flex;
   }
   .footer__social_links {
@@ -395,7 +407,7 @@
     margin-right: 60px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   .footer__logo {
     padding-top: 40px;
     display: flex;
@@ -454,20 +466,78 @@
     line-height: 28px;
   }
   .footer__bottom {
+    margin-left: 30px;
     height: 60px;
+  }
+  .footer__bottom__navigation {
+    display: flex;
+    width: 180px;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  .footer__bottom__navigation_item {
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 14px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+  .footer__social_links {
+    margin-top: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 400px) {
+.audience {
+  background-color: rgba(0, 161, 198, 0.07);
+}
+@media screen and (min-width: 320px) {
   .audience {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 130px;
+    padding-right: 130px;
     width: 1400px;
     box-sizing: border-box;
     height: 983px;
-    background-color: rgba(0, 161, 198, 0.07);
+  }
+  .audience__headline {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 108px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .audience__header {
+    width: 555px;
+    text-align: center;
+    padding-left: 292px;
+    padding-top: 24px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .audience__description {
+    width: 555px;
+    text-align: center;
+    padding-left: 292px;
+    padding-top: 30px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .audience__buttons {
+    display: flex;
+    padding-left: 406px;
+    margin-top: 30px;
   }
   .audience__cards {
+    margin-top: 111px;
     display: flex;
     justify-content: space-between;
   }
@@ -475,6 +545,8 @@
     padding-top: 22px;
     padding-bottom: 33px;
     width: 262px;
+    height: 300px;
+    box-sizing: border-box;
     background-color: white;
   }
   .audience__card_image {
@@ -484,6 +556,82 @@
   }
   .audience__card_description {
     text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 22px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .audience__card.selected {
+    color: white;
+    background-color: #3141c5;
+  }
+}
+@media screen and (max-width: 320px) {
+  .audience {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .audience__headline {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 50px;
+  }
+  .audience__header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 17px;
+  }
+  .audience__description {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 18px;
+  }
+  .audience__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+  .audience__card {
+    padding-top: 22px;
+    padding-bottom: 33px;
+    width: 290px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 15px;
+  }
+  .audience__card_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .audience__card_description {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 22px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .audience__card.selected {
+    color: white;
+    background-color: #3141c5;
   }
 }
 

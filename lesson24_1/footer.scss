@@ -26,7 +26,7 @@
     }
     &__main {
       display: flex;
-      padding-left: 60px;
+      padding-left: 130px;
       padding-top: 60px;
       height: 338px;
     }
@@ -61,7 +61,8 @@
       line-height: 28px;
     }
     &__bottom {
-      padding-left: 60px;
+      padding-left: 130px;
+      padding-right: 130px;
       display: flex;
     }
     &__social_links {
@@ -128,7 +129,28 @@
       line-height: 28px;
     }
     &__bottom {
+      margin-left: 30px;
       height: 60px;
+      &__navigation {
+        display: flex;
+        width: 180px;
+        margin-top: 30px;
+        justify-content: space-between;
+        &_item {
+          text-decoration: none;
+          font-family: "Work Sans", sans-serif;
+          font-weight: 400;
+          line-height: 22px;
+          font-size: 14px;
+          color: rgba(43, 41, 45, 0.6);
+        }
+      }
+    }
+    &__social_links {
+      margin-top: 30px;
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
     }
   }
 }

@@ -9,8 +9,9 @@
     &__info {
       position: relative;
       width: 754px;
-      margin-left: 60px;
+      margin-left: 130px;
       padding-top: 81px;
+      margin-right: 130px;
       padding-bottom: 81px;
       z-index: 1;
       &_main {
@@ -87,6 +88,16 @@
       font-weight: 700;
       font-size: 18px;
       line-height: 13px;
+      &.button_white {
+        color: #3040c4;
+        background-color: white;
+      }
+    }
+    &__image {
+      height: 180px;
+      width: 320px;
+      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
+      background-size: cover;
     }
   }
 }
