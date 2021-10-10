@@ -17,6 +17,11 @@
       padding-bottom: 33px;
       width: 262px;
       background-color: white;
+      &_image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
       &_description {
         text-align: center;
       }

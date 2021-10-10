@@ -477,9 +477,19 @@
     width: 262px;
     background-color: white;
   }
+  .audience__card_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .audience__card_description {
     text-align: center;
   }
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=style.css.map */

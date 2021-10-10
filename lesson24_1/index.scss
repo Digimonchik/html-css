@@ -3,3 +3,8 @@
 @import "order.scss";
 @import "footer.scss";
 @import "audience.scss";
+
+body {
+  display: flex;
+  justify-content: space-around;
+}
