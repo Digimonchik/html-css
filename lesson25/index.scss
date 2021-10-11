@@ -7,19 +7,20 @@
   box-sizing: border-box;
 }
 .trapezoid {
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid #dc3f45;
-  width: 80px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 25px solid #dc3f45;
+  text-transform: uppercase;
+  text-align: center;
+  width: 95px;
   height: 0px;
   transform: rotate(45deg);
   position: absolute;
-  top: 25px;
-  right: -25px;
+  top: 30px;
+  right: -30px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
 }
 .price-cards {
   box-sizing: border-box;
