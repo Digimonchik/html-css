@@ -51,6 +51,7 @@
   line-height: 24px;
 }
 .price-card__title.business {
+  padding-top: 35px;
   position: relative;
 }
 .price-card__title_main {
