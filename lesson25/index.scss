@@ -1,0 +1,131 @@
+.page {
+  background-color: #141b1c;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  box-sizing: border-box;
+}
+.trapezoid {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #dc3f45;
+  width: 80px;
+  height: 0px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 25px;
+  right: -25px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.cards {
+  box-sizing: border-box;
+  display: flex;
+  width: 1176px;
+  justify-content: space-between;
+}
+.card {
+  background-color: #334247;
+  color: white;
+  width: 380px;
+  height: 770px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  &__header {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    &.business {
+      position: relative;
+    }
+    &_main {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 30px;
+    }
+    &_sub {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  &__price {
+    height: 105px;
+    background-color: #5bb189;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 105px;
+    &.business {
+      background-color: #3a6ba5;
+    }
+    &.webshop {
+      background-color: #ec632a;
+    }
+  }
+  &__about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 25px 40px 25px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  &__description {
+    height: 300px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+
+    &_item {
+      box-sizing: border-box;
+      height: 50px;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      padding-top: 16px;
+      padding-left: 60px;
+      padding-bottom: 16px;
+      position: relative;
+      list-style-type: none;
+      &:nth-child(2n-1) {
+        background-color: #2a3438;
+      }
+    }
+    &_icon {
+      left: 22px;
+      position: absolute;
+    }
+  }
+  &__button {
+    width: 155px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #5bb189;
+    color: white;
+    border-radius: 20px;
+    margin-left: 112px;
+    &:focus {
+      outline: none;
+    }
+    &.blue {
+      background-color: #3a6ba5;
+    }
+    &.webshop {
+      background-color: #ec632a;
+    }
+  }
+}
