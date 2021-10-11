@@ -38,10 +38,11 @@
   &__title {
     padding-top: 33px;
     padding-bottom: 33px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
     &.business {
       position: relative;
     }
@@ -50,13 +51,9 @@
       font-weight: 700;
       font-size: 35px;
       line-height: 33px;
-      margin-bottom: 0px;
+      margin-bottom: 8px;
       margin-top: 0px;
     }
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
   }
   &__price {
     height: 105px;
