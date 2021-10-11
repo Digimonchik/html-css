@@ -18,7 +18,7 @@
   transform: rotate(45deg);
   position: absolute;
   top: 30px;
-  right: -30px;
+  right: -31px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -51,6 +51,7 @@
   line-height: 24px;
 }
 .price-card__title.business {
+  padding-top: 35px;
   position: relative;
 }
 .price-card__title_main {
