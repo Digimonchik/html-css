@@ -17,53 +17,55 @@
   position: absolute;
   top: 25px;
   right: -25px;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
 }
 
-.cards {
+.price-cards {
   box-sizing: border-box;
   display: flex;
+  flex-direction: row;
   width: 1176px;
   justify-content: space-between;
 }
 
-.card {
+.price-card {
+  box-sizing: border-box;
   background-color: #334247;
   color: white;
   width: 380px;
   height: 770px;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
-.card__header {
+.price-card__title {
   padding-top: 33px;
   padding-bottom: 33px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-}
-.card__header.business {
-  position: relative;
-}
-.card__header_main {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 30px;
-}
-.card__header_sub {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 24px;
 }
-.card__price {
+.price-card__title.business {
+  position: relative;
+}
+.price-card__title_main {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 33px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.price-card__price {
   height: 105px;
   background-color: #5bb189;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 55px;
   color: white;
@@ -72,31 +74,31 @@
   justify-content: center;
   line-height: 105px;
 }
-.card__price.business {
+.price-card__price.business {
   background-color: #3a6ba5;
 }
-.card__price.webshop {
+.price-card__price.webshop {
   background-color: #ec632a;
 }
-.card__about {
+.price-card__description {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 40px 25px 40px 25px;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
 }
-.card__description {
+.price-card__options-list {
   height: 300px;
   padding-left: 0px;
   margin-bottom: 0px;
 }
-.card__description_item {
+.price-card__options_item {
   box-sizing: border-box;
   height: 50px;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -106,14 +108,14 @@
   position: relative;
   list-style-type: none;
 }
-.card__description_item:nth-child(2n-1) {
+.price-card__options_item:nth-child(2n-1) {
   background-color: #2a3438;
 }
-.card__description_icon {
+.price-card__options_icon {
   left: 22px;
   position: absolute;
 }
-.card__button {
+.price-card__button {
   width: 155px;
   height: 40px;
   margin-top: 40px;
@@ -122,13 +124,13 @@
   border-radius: 20px;
   margin-left: 112px;
 }
-.card__button:focus {
+.price-card__button:focus {
   outline: none;
 }
-.card__button.blue {
+.price-card__button.blue {
   background-color: #3a6ba5;
 }
-.card__button.webshop {
+.price-card__button.webshop {
   background-color: #ec632a;
 }
 
