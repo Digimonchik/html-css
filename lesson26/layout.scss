@@ -1,0 +1,7 @@
+$sm: 1024px;
+
+@mixin for-small {
+  @media screen and (max-width: $sm) {
+    @content;
+  }
+}
