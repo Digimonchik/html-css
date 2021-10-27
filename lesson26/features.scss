@@ -1,0 +1,52 @@
+@import "layout.scss";
+
+.features {
+  @include for-small {
+    margin-top: 125px;
+    &__header {
+      font-family: "Mulish", sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 60px;
+      margin-left: 60px;
+    }
+    &__card {
+      background-color: white;
+      width: 520px;
+      height: 200px;
+      box-sizing: border-box;
+      margin-left: 60px;
+      margin-top: 60px;
+      position: relative;
+      &_header {
+        display: flex;
+        background-color: #f3f7ff;
+        &_icon {
+          width: 80px;
+          height: 80px;
+        }
+        &_text {
+          margin: 20px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 40px;
+        }
+      }
+      &_description {
+        box-sizing: border-box;
+        margin: 30px 40px 30px 40px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+      }
+      &_decoration {
+        position: absolute;
+        right: -5px;
+        bottom: -5px;
+      }
+    }
+  }
+}

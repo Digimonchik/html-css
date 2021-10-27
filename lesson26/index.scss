@@ -1,1 +1,16 @@
 @import "header.scss";
+@import "headline.scss";
+@import "reviews.scss";
+@import "work-flow.scss";
+@import "features.scss";
+@import "users.scss";
+html {
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  @include for-small {
+    width: 640px;
+    background-color: red;
+  }
+}

@@ -1,8 +1,269 @@
 .page-header {
   width: 1440px;
-  height: 220px;
   box-sizing: border-box;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1024px) {
+  .page-header {
+    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-left: 80px;
+    width: 640px;
+  }
+  .page-header__navigation {
+    display: none;
+  }
+  .page-header__button {
+    display: none;
+  }
+  .page-header__logo_text {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 10px;
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .headline {
+    padding-right: 80px;
+  }
+  .headline__text {
+    margin-left: 80px;
+    width: 480px;
+  }
+  .headline__text_header {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .headline__text_description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .headline__button {
+    margin-left: 80px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+  }
+  .headline__image {
+    margin-left: 40px;
+    margin-top: 80px;
+    width: 600px;
+    height: 500px;
+  }
+  .headline__link {
+    box-sizing: border-box;
+    color: white;
+    padding: 30px 60px 30px 60px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    background-color: blue;
+    width: 640px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews__card {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 50px;
+    width: 540px;
+    height: 280px;
+    position: relative;
+  }
+  .reviews__card_brackets {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .reviews__card_image {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .reviews__card_description {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
+  .reviews__card_name {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .reviews__card_info {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1967fa;
+  }
+  .reviews__card_review {
+    margin: 40px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #11223f;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .work-flow {
+    margin-top: 120px;
+    padding-left: 60px;
+  }
+  .work-flow__header {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  .work-flow__card {
+    background-color: white;
+    height: 180px;
+    margin-top: 40px;
+    padding-top: 40px;
+    border: 2px;
+    width: 520px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .work-flow__card_icon {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .work-flow__card_step {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 40px;
+  }
+  .work-flow__card_header {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #1967fa;
+    margin-left: 40px;
+    text-transform: uppercase;
+  }
+  .work-flow__card_description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .work-flow__card_decoration {
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+  }
+  .work-flow__card_connect-line {
+    position: absolute;
+    left: 60px;
+    bottom: -42px;
+    width: 0px;
+    height: 38px;
+    border: 2px dashed #1968fc;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .features {
+    margin-top: 125px;
+  }
+  .features__header {
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 60px;
+  }
+  .features__card {
+    background-color: white;
+    width: 520px;
+    height: 200px;
+    box-sizing: border-box;
+    margin-left: 60px;
+    margin-top: 60px;
+    position: relative;
+  }
+  .features__card_header {
+    display: flex;
+    background-color: #f3f7ff;
+  }
+  .features__card_header_icon {
+    width: 80px;
+    height: 80px;
+  }
+  .features__card_header_text {
+    margin: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .features__card_description {
+    box-sizing: border-box;
+    margin: 30px 40px 30px 40px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .features__card_decoration {
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+  }
+}
+
+.users__header {
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  margin-top: 125px;
+  margin-left: 60px;
+}
+
+html {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 640px;
+    background-color: red;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

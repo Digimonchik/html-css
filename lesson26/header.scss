@@ -2,7 +2,33 @@
 
 .page-header {
   width: 1440px;
-  height: 220px;
   box-sizing: border-box;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  @include for-small {
+    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-left: 80px;
+    width: 640px;
+    &__navigation {
+      display: none;
+    }
+    &__button {
+      display: none;
+    }
+    &__logo {
+      &_text {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        font-family: "Mulish", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        margin-left: 10px;
+        color: blue;
+      }
+    }
+  }
 }

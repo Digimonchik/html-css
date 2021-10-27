@@ -1,0 +1,68 @@
+@import "layout.scss";
+
+.work-flow {
+  @include for-small {
+    margin-top: 120px;
+    padding-left: 60px;
+    &__header {
+      font-family: "Mulish", sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 60px;
+      margin-bottom: 20px;
+    }
+    &__card {
+      background-color: white;
+      height: 180px;
+      margin-top: 40px;
+      padding-top: 40px;
+      border: 2px;
+      width: 520px;
+      box-sizing: border-box;
+      position: relative;
+
+      &_icon {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+      }
+      &_step {
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 40px;
+      }
+      &_header {
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 40px;
+        color: #1967fa;
+        margin-left: 40px;
+        text-transform: uppercase;
+      }
+      &_description {
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: 40px;
+        margin-top: 10px;
+      }
+      &_decoration {
+        position: absolute;
+        right: -5px;
+        bottom: -5px;
+      }
+      &_connect-line {
+        position: absolute;
+        left: 60px;
+        bottom: -42px;
+        width: 0px;
+        height: 38px;
+        border: 2px dashed #1968fc;
+      }
+    }
+  }
+}
