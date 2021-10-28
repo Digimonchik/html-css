@@ -1,12 +1,57 @@
 @import "layout.scss";
 
 .page-header {
-  width: 1440px;
   box-sizing: border-box;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  @include for-large {
+    padding-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+    &__logo {
+      &_text {
+        padding: 15px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        vertical-align: 50px;
+        line-height: 20px;
+        color: #1968fc;
+        margin-right: 50px;
+      }
+    }
+    &__navigation {
+      font-family: "Work Sans", sans-serif;
+      display: flex;
+      line-height: 25px;
+      font-size: 18px;
+      padding: 0px;
+      width: 560px;
+      height: 25px;
+      margin-left: auto;
+      margin-right: 20px;
+      justify-content: space-between;
+      &_item {
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+    &__button {
+      font-family: "Mulish", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      width: 180px;
+      height: 50px;
+      text-transform: uppercase;
+      color: white;
+      background-color: #1968fc;
+    }
+  }
   @include for-small {
+    box-sizing: border-box;
+    display: flex;
     padding-bottom: 80px;
     padding-top: 40px;
     padding-left: 80px;

@@ -1,12 +1,57 @@
 .page-header {
-  width: 1440px;
   box-sizing: border-box;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+}
+@media screen and (min-width: 1024px) {
+  .page-header {
+    padding-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+  .page-header__logo_text {
+    padding: 15px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    vertical-align: 50px;
+    line-height: 20px;
+    color: #1968fc;
+    margin-right: 50px;
+  }
+  .page-header__navigation {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 0px;
+    width: 560px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: 20px;
+    justify-content: space-between;
+  }
+  .page-header__navigation_item {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .page-header__button {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #1968fc;
+  }
 }
 @media screen and (max-width: 1024px) {
   .page-header {
+    box-sizing: border-box;
+    display: flex;
     padding-bottom: 80px;
     padding-top: 40px;
     padding-left: 80px;
@@ -31,6 +76,50 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .headline {
+    margin: 160px;
+    position: relative;
+  }
+  .headline__text {
+    width: 600px;
+  }
+  .headline__text_header {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .headline__text_description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .headline__button-large {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 40px;
+    width: 300px;
+    height: 50px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #1968fc;
+  }
+  .headline__button-small {
+    display: none;
+  }
+  .headline__image {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+  }
+  .headline__link {
+    display: none;
+  }
+}
 @media screen and (max-width: 1024px) {
   .headline {
     padding-right: 80px;
@@ -51,7 +140,10 @@
     font-size: 20px;
     line-height: 40px;
   }
-  .headline__button {
+  .headline__button-large {
+    display: none;
+  }
+  .headline__button-small {
     margin-left: 80px;
     font-family: "Mulish", sans-serif;
     font-weight: 700;
@@ -60,6 +152,9 @@
     margin-top: 40px;
     width: 300px;
     height: 50px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #1968fc;
   }
   .headline__image {
     margin-left: 40px;
@@ -77,10 +172,61 @@
     line-height: 40px;
     text-align: center;
     background-color: blue;
+    text-transform: uppercase;
     width: 640px;
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .reviews {
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .reviews__card {
+    background-color: white;
+    box-sizing: border-box;
+    width: 540px;
+    height: 280px;
+    position: relative;
+  }
+  .reviews__card_brackets {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .reviews__card_image {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .reviews__card_description {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
+  .reviews__card_name {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .reviews__card_info {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1967fa;
+  }
+  .reviews__card_review {
+    margin: 40px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #11223f;
+  }
+}
 @media screen and (max-width: 1024px) {
   .reviews__card {
     background-color: white;
@@ -247,11 +393,184 @@
 .users__header {
   font-family: "Mulish", sans-serif;
   text-transform: uppercase;
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 30px;
   line-height: 60px;
   margin-top: 125px;
   margin-left: 60px;
+}
+.users__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+}
+.users__card {
+  width: 250px;
+  height: 190px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.users__card:nth-child(n+1) {
+  margin-right: 20px;
+}
+.users__card_header {
+  margin: 20px;
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: #1967fa;
+}
+.users__card_description {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0px 20px 20px 20px;
+}
+
+.purposes {
+  margin-top: 125px;
+}
+.purposes__header {
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+}
+.purposes__cards {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.purposes__cards_card {
+  background-color: white;
+  display: flex;
+  margin-bottom: 40px;
+}
+.purposes__cards_card_description {
+  margin: 20px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.consultations {
+  background-color: #1968fc;
+  padding: 60px;
+}
+.consultations__image {
+  display: none;
+}
+.consultations__header {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  margin-bottom: 50px;
+}
+.consultations__description {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+}
+.consultations__button {
+  text-transform: uppercase;
+  font-family: "Mulish", sans-serif;
+  background-color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 40px;
+  width: 320px;
+  height: 50px;
+  color: #1968fc;
+}
+
+.stories {
+  margin-top: 60px;
+}
+@media screen and (max-width: 1024px) {
+  .stories__header {
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+  }
+  .stories__card {
+    margin-right: 60px;
+    position: relative;
+    padding-left: 120px;
+    margin-bottom: 40px;
+  }
+  .stories__card_image {
+    position: absolute;
+    left: 60px;
+  }
+  .stories__card_header {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .stories__card_description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page-footer {
+    height: 130px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    padding: 40px;
+  }
+  .page-footer__navigation {
+    display: none;
+  }
+  .page-footer__logo {
+    max-height: 100%;
+  }
+  .page-footer__image {
+    right: -40px;
+    position: absolute;
+  }
+  .page-footer__description {
+    padding: 15px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    vertical-align: 50px;
+    line-height: 20px;
+    color: #1968fc;
+    margin-right: 50px;
+  }
+  .page-footer__social-link {
+    padding: 15px;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    max-height: 20px;
+    max-width: 20px;
+  }
 }
 
 html {
@@ -259,11 +578,25 @@ html {
   justify-content: space-around;
 }
 
+body {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png");
+  background-size: cover;
+}
 @media screen and (max-width: 1024px) {
   body {
     width: 640px;
-    background-color: red;
   }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    width: 1440px;
+  }
+}
+
+.header__decoration {
+  width: 80px;
+  height: 2px;
+  background-color: #1968fc;
 }
 
 /*# sourceMappingURL=style.css.map */

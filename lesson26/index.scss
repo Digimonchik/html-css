@@ -4,13 +4,27 @@
 @import "work-flow.scss";
 @import "features.scss";
 @import "users.scss";
+@import "purposes.scss";
+@import "consultations.scss";
+@import "stories.scss";
+@import "page-footer.scss";
 html {
   display: flex;
   justify-content: space-around;
 }
 body {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png");
+  background-size: cover;
   @include for-small {
     width: 640px;
-    background-color: red;
+    // background-color: red;
   }
+  @include for-large {
+    width: 1440px;
+  }
+}
+.header__decoration {
+  width: 80px;
+  height: 2px;
+  background-color: #1968fc;
 }

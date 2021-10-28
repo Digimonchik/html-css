@@ -5,3 +5,8 @@ $sm: 1024px;
     @content;
   }
 }
+@mixin for-large {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}

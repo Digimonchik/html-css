@@ -1,0 +1,38 @@
+@import "layout.scss";
+.stories {
+  margin-top: 60px;
+  @include for-small {
+    &__header {
+      font-family: "Mulish", sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 60px;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-bottom: 50px;
+    }
+    &__card {
+      margin-right: 60px;
+      position: relative;
+      padding-left: 120px;
+      margin-bottom: 40px;
+      &_image {
+        position: absolute;
+        left: 60px;
+      }
+      &_header {
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+      }
+      &_description {
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+  }
+}

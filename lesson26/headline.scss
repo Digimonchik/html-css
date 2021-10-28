@@ -1,6 +1,48 @@
 @import "layout.scss";
 
 .headline {
+  @include for-large {
+    margin: 160px;
+    position: relative;
+    &__text {
+      width: 600px;
+      &_header {
+        font-family: "Mulish", sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+      }
+      &_description {
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+      }
+    }
+    &__button-large {
+      font-family: "Mulish", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 40px;
+      width: 300px;
+      height: 50px;
+      text-transform: uppercase;
+      color: white;
+      background-color: #1968fc;
+    }
+    &__button-small {
+      display: none;
+    }
+    &__image {
+      position: absolute;
+      right: 0px;
+      top: 40px;
+    }
+    &__link {
+      display: none;
+    }
+  }
   @include for-small {
     padding-right: 80px;
     &__text {
@@ -19,7 +61,10 @@
         line-height: 40px;
       }
     }
-    &__button {
+    &__button-large {
+      display: none;
+    }
+    &__button-small {
       margin-left: 80px;
       font-family: "Mulish", sans-serif;
       font-weight: 700;
@@ -28,6 +73,9 @@
       margin-top: 40px;
       width: 300px;
       height: 50px;
+      text-transform: uppercase;
+      color: white;
+      background-color: #1968fc;
     }
     &__image {
       margin-left: 40px;
@@ -45,6 +93,7 @@
       line-height: 40px;
       text-align: center;
       background-color: blue;
+      text-transform: uppercase;
       width: 640px;
     }
   }
