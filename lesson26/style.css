@@ -179,6 +179,7 @@
 
 @media screen and (min-width: 1024px) {
   .reviews {
+    min-width: 1120px;
     margin-left: 160px;
     margin-right: 160px;
     display: flex;
@@ -187,6 +188,7 @@
   .reviews__card {
     background-color: white;
     box-sizing: border-box;
+    box-shadow: 0px 20px 60px 0px #3145f41a;
     width: 540px;
     height: 280px;
     position: relative;
@@ -273,6 +275,83 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .work-flow {
+    margin: 160px 160px 80px 160px;
+  }
+  .work-flow__header {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  .work-flow__cards {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  .work-flow__card {
+    background-color: white;
+    height: 220px;
+    margin-top: 40px;
+    padding-top: 40px;
+    border: 2px;
+    width: 320px;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0px 20px 60px 0px #3145f41a;
+  }
+  .work-flow__card:nth-child(2) {
+    margin-top: 80px;
+  }
+  .work-flow__card:last-child {
+    margin-top: 120px;
+  }
+  .work-flow__card_icon {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .work-flow__card_step {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 40px;
+  }
+  .work-flow__card_header {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #1967fa;
+    margin-left: 40px;
+    text-transform: uppercase;
+  }
+  .work-flow__card_description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 40px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .work-flow__card_decoration {
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+  }
+  .work-flow__card_connect-line {
+    position: absolute;
+    right: -110px;
+    bottom: 110px;
+    width: 110px;
+    height: 0px;
+    border-bottom: 2px dashed #1968fc;
+  }
+}
 @media screen and (max-width: 1024px) {
   .work-flow {
     margin-top: 120px;
@@ -339,6 +418,64 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .features {
+    padding: 0px 160px 80px 160px;
+  }
+  .features__header {
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .features__cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .features__card {
+    background-color: white;
+    width: 320px;
+    height: 290px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    position: relative;
+  }
+  .features__card:nth-child(2) {
+    margin-top: 80px;
+  }
+  .features__card:last-child {
+    margin-top: 120px;
+  }
+  .features__card_header {
+    display: flex;
+    background-color: #f3f7ff;
+  }
+  .features__card_header_icon {
+    width: 80px;
+    height: 80px;
+  }
+  .features__card_header_text {
+    margin: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .features__card_description {
+    box-sizing: border-box;
+    margin: 30px 40px 30px 40px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .features__card_decoration {
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .features {
     margin-top: 125px;
@@ -390,117 +527,282 @@
   }
 }
 
-.users__header {
-  font-family: "Mulish", sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 60px;
-  margin-top: 125px;
-  margin-left: 60px;
+@media screen and (max-width: 1024px) {
+  .users__header {
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-top: 125px;
+    margin-left: 60px;
+  }
+  .users__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+  }
+  .users__card {
+    width: 250px;
+    height: 190px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .users__card:nth-child(n+1) {
+    margin-right: 20px;
+  }
+  .users__card_header {
+    margin: 20px;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #1967fa;
+  }
+  .users__card_description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px 20px 20px 20px;
+  }
 }
-.users__cards {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 60px;
-}
-.users__card {
-  width: 250px;
-  height: 190px;
-  background-color: white;
-  margin-bottom: 20px;
-}
-.users__card:nth-child(n+1) {
-  margin-right: 20px;
-}
-.users__card_header {
-  margin: 20px;
-  font-family: "Mulish", sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 40px;
-  color: #1967fa;
-}
-.users__card_description {
-  font-family: "Mulish", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  margin: 0px 20px 20px 20px;
-}
-
-.purposes {
-  margin-top: 125px;
-}
-.purposes__header {
-  font-family: "Mulish", sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 60px;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-bottom: 50px;
-}
-.purposes__cards {
-  margin-right: 60px;
-  margin-left: 60px;
-}
-.purposes__cards_card {
-  background-color: white;
-  display: flex;
-  margin-bottom: 40px;
-}
-.purposes__cards_card_description {
-  margin: 20px;
-  font-family: "Mulish", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-.consultations {
-  background-color: #1968fc;
-  padding: 60px;
-}
-.consultations__image {
-  display: none;
-}
-.consultations__header {
-  color: white;
-  font-family: "Mulish", sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 60px;
-  margin-bottom: 50px;
-}
-.consultations__description {
-  font-family: "Mulish", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 40px;
-  color: white;
-}
-.consultations__button {
-  text-transform: uppercase;
-  font-family: "Mulish", sans-serif;
-  background-color: white;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  margin-top: 40px;
-  width: 320px;
-  height: 50px;
-  color: #1968fc;
+@media screen and (min-width: 1024px) {
+  .users__header {
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 160px;
+  }
+  .users__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 160px;
+  }
+  .users__card {
+    width: 360px;
+    height: 160px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .users__card:nth-child(n+1) {
+    margin-right: 20px;
+  }
+  .users__card_header {
+    margin: 20px;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #1967fa;
+  }
+  .users__card_description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px 20px 20px 20px;
+  }
 }
 
-.stories {
-  margin-top: 60px;
+@media screen and (max-width: 1024px) {
+  .purposes {
+    margin-top: 125px;
+  }
+  .purposes__header {
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+  }
+  .purposes__cards {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .purposes__cards_card {
+    background-color: white;
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .purposes__cards_card_description {
+    margin: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .purposes {
+    margin: 160px;
+  }
+  .purposes__header {
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+  }
+  .purposes__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .purposes__cards_card {
+    display: flex;
+    background-color: white;
+    margin-bottom: 40px;
+    width: 540px;
+    height: 80px;
+  }
+  .purposes__cards_card_description {
+    margin: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .consultations {
+    background-color: #1968fc;
+    padding: 60px;
+  }
+  .consultations__image {
+    display: none;
+  }
+  .consultations__header {
+    color: white;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 50px;
+  }
+  .consultations__description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+  }
+  .consultations__button {
+    text-transform: uppercase;
+    font-family: "Mulish", sans-serif;
+    background-color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 40px;
+    width: 320px;
+    height: 50px;
+    color: #1968fc;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .consultations {
+    background-color: #1968fc;
+    padding: 80px 160px;
+    height: 450px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .consultations__image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .consultations__header {
+    color: white;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 50px;
+  }
+  .consultations__description {
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+    padding-right: 80px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 640px;
+    line-height: 40px;
+    color: white;
+  }
+  .consultations__button {
+    text-transform: uppercase;
+    font-family: "Mulish", sans-serif;
+    background-color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 40px;
+    width: 320px;
+    height: 50px;
+    color: #1968fc;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .stories {
+    margin-top: 120px;
+    margin-left: 160px;
+  }
+  .stories__header {
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 50px;
+  }
+  .stories__cards {
+    display: flex;
+  }
+  .stories__card {
+    margin-right: 60px;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 40px;
+  }
+  .stories__card_image {
+    position: absolute;
+    left: 0px;
+  }
+  .stories__card_header {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .stories__card_description {
+    font-family: "Mulish", sans-serif;
+    width: 420px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
 }
 @media screen and (max-width: 1024px) {
+  .stories {
+    margin-top: 60px;
+  }
   .stories__header {
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
@@ -535,6 +837,71 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .page-footer {
+    margin-left: 160px;
+    height: 130px;
+    position: relative;
+    display: flex;
+    padding-top: 40px;
+    box-sizing: border-box;
+  }
+  .page-footer__logo {
+    width: 50px;
+    height: 50px;
+  }
+  .page-footer__image {
+    position: absolute;
+    top: 0px;
+    right: 80px;
+  }
+  .page-footer__description {
+    width: 200px;
+    padding: 15px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    vertical-align: 50px;
+    line-height: 20px;
+    color: #1968fc;
+    margin-right: 50px;
+  }
+  .page-footer__navigation {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    line-height: 15px;
+    font-size: 14px;
+    padding: 0px;
+    width: 480px;
+    height: 25px;
+    margin-right: 50px;
+    justify-content: space-between;
+  }
+  .page-footer__navigation_item {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .page-footer__button {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    width: 180px;
+    height: 50px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #1968fc;
+  }
+  .page-footer__social-link {
+    padding: 15px;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    max-height: 20px;
+    max-width: 20px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .page-footer {
     height: 130px;

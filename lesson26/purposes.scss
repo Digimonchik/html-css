@@ -1,29 +1,62 @@
 @import "layout.scss";
 .purposes {
-  margin-top: 125px;
-  &__header {
-    font-family: "Mulish", sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 60px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 50px;
+  @include for-small {
+    margin-top: 125px;
+    &__header {
+      font-family: "Mulish", sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 60px;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-bottom: 50px;
+    }
+    &__cards {
+      margin-right: 60px;
+      margin-left: 60px;
+      &_card {
+        background-color: white;
+        display: flex;
+        margin-bottom: 40px;
+        &_description {
+          margin: 20px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 40px;
+        }
+      }
+    }
   }
-  &__cards {
-    margin-right: 60px;
-    margin-left: 60px;
-    &_card {
-      background-color: white;
+  @include for-large {
+    margin: 160px;
+    &__header {
+      font-family: "Mulish", sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 60px;
+      margin-right: 60px;
+      margin-bottom: 50px;
+    }
+    &__cards {
       display: flex;
-      margin-bottom: 40px;
-      &_description {
-        margin: 20px;
-        font-family: "Mulish", sans-serif;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 40px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      &_card {
+        display: flex;
+        background-color: white;
+        margin-bottom: 40px;
+        width: 540px;
+        height: 80px;
+        &_description {
+          margin: 20px;
+          font-family: "Mulish", sans-serif;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 40px;
+        }
       }
     }
   }

@@ -1,5 +1,69 @@
 @import "layout.scss";
 .page-footer {
+  @include for-large {
+    margin-left: 160px;
+    height: 130px;
+    position: relative;
+    display: flex;
+    padding-top: 40px;
+    box-sizing: border-box;
+    &__logo {
+      width: 50px;
+      height: 50px;
+    }
+    &__image {
+      position: absolute;
+      top: 0px;
+      right: 80px;
+    }
+    &__description {
+      width: 200px;
+      padding: 15px;
+      font-family: "Mulish", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      vertical-align: 50px;
+      line-height: 20px;
+      color: #1968fc;
+      margin-right: 50px;
+    }
+    &__navigation {
+      font-family: "Work Sans", sans-serif;
+      display: flex;
+      line-height: 15px;
+      font-size: 14px;
+      padding: 0px;
+      width: 480px;
+      height: 25px;
+      margin-right: 50px;
+      justify-content: space-between;
+
+      &_item {
+        padding: 15px;
+        text-decoration: none;
+        color: black;
+      }
+    }
+    &__button {
+      font-family: "Mulish", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      width: 180px;
+      height: 50px;
+      text-transform: uppercase;
+      color: white;
+      background-color: #1968fc;
+    }
+    &__social-link {
+      padding: 15px;
+      margin-left: 10px;
+      display: inline-flex;
+      align-items: center;
+      max-height: 20px;
+      max-width: 20px;
+    }
+  }
   @include for-small {
     height: 130px;
     box-sizing: border-box;

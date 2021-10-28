@@ -1,36 +1,81 @@
 @import "layout.scss";
 .consultations {
-  background-color: #1968fc;
-  padding: 60px;
-  &__image {
-    display: none;
+  @include for-small {
+    background-color: #1968fc;
+    padding: 60px;
+    &__image {
+      display: none;
+    }
+    &__header {
+      color: white;
+      font-family: "Mulish", sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 60px;
+      margin-bottom: 50px;
+    }
+    &__description {
+      font-family: "Mulish", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+      color: white;
+    }
+    &__button {
+      text-transform: uppercase;
+      font-family: "Mulish", sans-serif;
+      background-color: white;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 40px;
+      width: 320px;
+      height: 50px;
+      color: #1968fc;
+    }
   }
-  &__header {
-    color: white;
-    font-family: "Mulish", sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 60px;
-    margin-bottom: 50px;
-  }
-  &__description {
-    font-family: "Mulish", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    color: white;
-  }
-  &__button {
-    text-transform: uppercase;
-    font-family: "Mulish", sans-serif;
-    background-color: white;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 40px;
-    width: 320px;
-    height: 50px;
-    color: #1968fc;
+  @include for-large {
+    background-color: #1968fc;
+    padding: 80px 160px;
+    height: 450px;
+    box-sizing: border-box;
+    position: relative;
+    &__image {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+    &__header {
+      color: white;
+      font-family: "Mulish", sans-serif;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 60px;
+      margin-bottom: 50px;
+    }
+    &__description {
+      box-sizing: border-box;
+      font-family: "Mulish", sans-serif;
+      padding-right: 80px;
+      font-weight: 400;
+      font-size: 20px;
+      width: 640px;
+      line-height: 40px;
+      color: white;
+    }
+    &__button {
+      text-transform: uppercase;
+      font-family: "Mulish", sans-serif;
+      background-color: white;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 40px;
+      width: 320px;
+      height: 50px;
+      color: #1968fc;
+    }
   }
 }

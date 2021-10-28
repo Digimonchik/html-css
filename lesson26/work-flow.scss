@@ -1,6 +1,81 @@
 @import "layout.scss";
 
 .work-flow {
+  @include for-large {
+    margin: 160px 160px 80px 160px;
+    &__header {
+      font-family: "Mulish", sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      text-transform: uppercase;
+      line-height: 60px;
+      margin-bottom: 20px;
+    }
+    &__cards {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__card {
+      background-color: white;
+      height: 220px;
+      margin-top: 40px;
+      padding-top: 40px;
+      border: 2px;
+      width: 320px;
+      box-sizing: border-box;
+      position: relative;
+      box-shadow: 0px 20px 60px 0px #3145f41a;
+      &:nth-child(2) {
+        margin-top: 80px;
+      }
+      &:last-child {
+        margin-top: 120px;
+      }
+      &_icon {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+      }
+      &_step {
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 40px;
+      }
+      &_header {
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 40px;
+        color: #1967fa;
+        margin-left: 40px;
+        text-transform: uppercase;
+      }
+      &_description {
+        font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 40px;
+        line-height: 30px;
+        margin-top: 10px;
+      }
+      &_decoration {
+        position: absolute;
+        right: -5px;
+        bottom: -5px;
+      }
+      &_connect-line {
+        position: absolute;
+        right: -110px;
+        bottom: 110px;
+        width: 110px;
+        height: 0px;
+        border-bottom: 2px dashed #1968fc;
+      }
+    }
+  }
   @include for-small {
     margin-top: 120px;
     padding-left: 60px;
