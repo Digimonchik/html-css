@@ -13,6 +13,7 @@
 }
 
 .page-header {
+  max-height: 50px;
   box-sizing: border-box;
 }
 @media screen and (min-width: 1024px) {
@@ -87,7 +88,8 @@
   .headline__title {
     font-family: "Mulish", sans-serif;
     font-weight: 600;
-    width: 600px;
+    letter-spacing: 1px;
+    width: 500px;
     font-size: 40px;
     line-height: 60px;
   }
@@ -95,7 +97,7 @@
     width: 600px;
     margin-top: 20px;
     font-family: "Mulish", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     line-height: 40px;
   }
@@ -119,7 +121,7 @@
   .headline__image {
     position: absolute;
     right: 0px;
-    top: 40px;
+    top: 45px;
   }
   .headline__link {
     display: none;
@@ -203,7 +205,7 @@
 .review_brackets {
   position: absolute;
   top: 40px;
-  right: 40px;
+  right: 35px;
 }
 .review_image {
   margin-top: 40px;
@@ -229,6 +231,7 @@
 }
 .review_text {
   margin: 40px;
+  margin-top: 42px;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -436,58 +439,13 @@
     font-size: 30px;
     line-height: 60px;
   }
-  .features__cards {
-    display: flex;
-    justify-content: space-between;
-  }
-  .features__feature {
-    background-color: white;
-    width: 320px;
-    height: 290px;
-    box-sizing: border-box;
-    margin-top: 60px;
-    position: relative;
-  }
-  .features__feature:nth-child(2) {
-    margin-top: 80px;
-  }
-  .features__feature:last-child {
-    margin-top: 120px;
-  }
-  .features__feature_header {
-    display: flex;
-    background-color: #f3f7ff;
-  }
-  .features__feature_header_icon {
-    width: 120px;
-    height: 120px;
-  }
-  .features__feature_header_text {
-    margin: 20px;
-    font-family: "Mulish", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-  }
-  .features__feature_description {
-    box-sizing: border-box;
-    margin: 30px 40px 30px 40px;
-    font-family: "Mulish", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  .features__feature_decoration {
-    position: absolute;
-    right: -5px;
-    bottom: -5px;
-  }
 }
 @media screen and (max-width: 1024px) {
   .features {
     margin-top: 125px;
   }
   .features__header {
+    margin-bottom: 10px;
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
     font-weight: 400;
@@ -495,7 +453,59 @@
     line-height: 60px;
     margin-left: 60px;
   }
-  .features__card {
+}
+.features__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px) {
+  .feature {
+    background-color: white;
+    width: 320px;
+    height: 290px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    position: relative;
+  }
+  .feature:nth-child(2) {
+    margin-top: 80px;
+  }
+  .feature:last-child {
+    margin-top: 120px;
+  }
+  .feature_header {
+    display: flex;
+    background-color: #f3f7ff;
+  }
+  .feature_header_icon {
+    width: 120px;
+    height: 120px;
+  }
+  .feature_header_text {
+    margin: 20px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    vertical-align: 160px;
+    line-height: 30px;
+  }
+  .feature_description {
+    box-sizing: border-box;
+    margin: 40px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .feature_decoration {
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .feature {
     background-color: white;
     width: 520px;
     height: 200px;
@@ -504,22 +514,22 @@
     margin-top: 60px;
     position: relative;
   }
-  .features__card_header {
+  .feature_header {
     display: flex;
     background-color: #f3f7ff;
   }
-  .features__card_header_icon {
+  .feature_header_icon {
     width: 80px;
     height: 80px;
   }
-  .features__card_header_text {
+  .feature_header_text {
     margin: 20px;
     font-family: "Mulish", sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 40px;
   }
-  .features__card_description {
+  .feature_description {
     box-sizing: border-box;
     margin: 30px 40px 30px 40px;
     font-family: "Mulish", sans-serif;
@@ -527,7 +537,7 @@
     font-size: 16px;
     line-height: 30px;
   }
-  .features__card_decoration {
+  .feature_decoration {
     position: absolute;
     right: -5px;
     bottom: -5px;
@@ -585,6 +595,7 @@
     font-size: 30px;
     line-height: 60px;
     margin-left: 160px;
+    margin-bottom: 60px;
   }
   .users__cards {
     display: flex;
@@ -695,7 +706,7 @@
     color: white;
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 30px;
     line-height: 60px;
     margin-bottom: 50px;
@@ -730,7 +741,7 @@
   }
   .consultation__image {
     position: absolute;
-    top: 0px;
+    top: 20px;
     right: 0px;
   }
   .consultation__title {
@@ -762,6 +773,8 @@
     margin-top: 40px;
     width: 320px;
     height: 50px;
+    border: none;
+    outline: none;
     color: #1968fc;
   }
 }

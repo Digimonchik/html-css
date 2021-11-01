@@ -10,7 +10,7 @@
       color: white;
       font-family: "Mulish", sans-serif;
       text-transform: uppercase;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 30px;
       line-height: 60px;
       margin-bottom: 50px;
@@ -43,7 +43,7 @@
     position: relative;
     &__image {
       position: absolute;
-      top: 0px;
+      top: 20px;
       right: 0px;
     }
     &__title {
@@ -75,6 +75,8 @@
       margin-top: 40px;
       width: 320px;
       height: 50px;
+      border: none;
+      outline: none;
       color: #1968fc;
     }
   }

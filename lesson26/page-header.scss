@@ -13,6 +13,7 @@
   }
 }
 .page-header {
+  max-height: 50px;
   box-sizing: border-box;
   @include for-large {
     box-sizing: border-box;
