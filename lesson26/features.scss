@@ -14,7 +14,7 @@
       display: flex;
       justify-content: space-between;
     }
-    &__card {
+    &__feature {
       background-color: white;
       width: 320px;
       height: 290px;
@@ -31,15 +31,15 @@
         display: flex;
         background-color: #f3f7ff;
         &_icon {
-          width: 80px;
-          height: 80px;
+          width: 120px;
+          height: 120px;
         }
         &_text {
           margin: 20px;
           font-family: "Mulish", sans-serif;
           font-weight: 600;
           font-size: 20px;
-          line-height: 40px;
+          line-height: 30px;
         }
       }
       &_description {

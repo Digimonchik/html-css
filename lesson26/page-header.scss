@@ -9,7 +9,7 @@
     margin-right: 160px;
     &__logo {
       &_text {
-        padding: 15px;
+        padding: 10px 15px 15px 15px;
         font-family: "Mulish", sans-serif;
         font-weight: 600;
         font-size: 20px;
@@ -21,17 +21,15 @@
     }
     &__navigation {
       font-family: "Work Sans", sans-serif;
-      display: flex;
       line-height: 20px;
+      box-sizing: border-box;
       font-size: 14px;
-      padding: 0px;
-      width: 560px;
-      height: 25px;
-      margin-left: auto;
-      margin-right: 20px;
-      justify-content: space-between;
+      width: 640px;
+      margin-left: 220px;
+      display: flex;
+      justify-content: center;
       &_item {
-        padding: 15px;
+        padding: 15px 20px 20px 20px;
         text-decoration: none;
         color: black;
       }
@@ -41,6 +39,7 @@
       font-weight: 700;
       font-size: 14px;
       line-height: 20px;
+
       width: 180px;
       height: 50px;
       text-transform: uppercase;
