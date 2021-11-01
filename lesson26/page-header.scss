@@ -3,7 +3,6 @@
 .page-header {
   box-sizing: border-box;
   @include for-large {
-    padding-top: 30px;
     box-sizing: border-box;
     display: flex;
     margin-left: 160px;
@@ -13,9 +12,9 @@
         padding: 15px;
         font-family: "Mulish", sans-serif;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 20px;
         vertical-align: 50px;
-        line-height: 20px;
+        line-height: 30px;
         color: #1968fc;
         margin-right: 50px;
       }
@@ -23,8 +22,8 @@
     &__navigation {
       font-family: "Work Sans", sans-serif;
       display: flex;
-      line-height: 25px;
-      font-size: 18px;
+      line-height: 20px;
+      font-size: 14px;
       padding: 0px;
       width: 560px;
       height: 25px;

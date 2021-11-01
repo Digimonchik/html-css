@@ -3,7 +3,6 @@
 }
 @media screen and (min-width: 1024px) {
   .page-header {
-    padding-top: 30px;
     box-sizing: border-box;
     display: flex;
     margin-left: 160px;
@@ -13,17 +12,17 @@
     padding: 15px;
     font-family: "Mulish", sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
     vertical-align: 50px;
-    line-height: 20px;
+    line-height: 30px;
     color: #1968fc;
     margin-right: 50px;
   }
   .page-header__navigation {
     font-family: "Work Sans", sans-serif;
     display: flex;
-    line-height: 25px;
-    font-size: 18px;
+    line-height: 20px;
+    font-size: 14px;
     padding: 0px;
     width: 560px;
     height: 25px;
@@ -677,14 +676,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .consultations {
+  .consultation {
     background-color: #1968fc;
     padding: 60px;
   }
-  .consultations__image {
+  .consultation__image {
     display: none;
   }
-  .consultations__header {
+  .consultation__header {
     color: white;
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
@@ -693,14 +692,14 @@
     line-height: 60px;
     margin-bottom: 50px;
   }
-  .consultations__description {
+  .consultation__description {
     font-family: "Mulish", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 40px;
     color: white;
   }
-  .consultations__button {
+  .consultation__button {
     text-transform: uppercase;
     font-family: "Mulish", sans-serif;
     background-color: white;
@@ -714,19 +713,19 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .consultations {
+  .consultation {
     background-color: #1968fc;
     padding: 80px 160px;
     height: 450px;
     box-sizing: border-box;
     position: relative;
   }
-  .consultations__image {
+  .consultation__image {
     position: absolute;
     top: 0px;
     right: 0px;
   }
-  .consultations__header {
+  .consultation__header {
     color: white;
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
@@ -735,7 +734,7 @@
     line-height: 60px;
     margin-bottom: 50px;
   }
-  .consultations__description {
+  .consultation__description {
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
     padding-right: 80px;
@@ -745,7 +744,7 @@
     line-height: 40px;
     color: white;
   }
-  .consultations__button {
+  .consultation__button {
     text-transform: uppercase;
     font-family: "Mulish", sans-serif;
     background-color: white;
