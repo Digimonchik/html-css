@@ -8,6 +8,9 @@
     margin-left: 160px;
     margin-right: 160px;
   }
+  .page-header__logo {
+    display: flex;
+  }
   .page-header__logo_text {
     padding: 10px 15px 15px 15px;
     font-family: "Mulish", sans-serif;
