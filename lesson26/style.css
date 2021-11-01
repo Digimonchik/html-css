@@ -2,14 +2,17 @@
   display: flex;
 }
 .logo__text {
-  padding: 10px 15px 15px 15px;
+  padding-left: 15px;
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   font-size: 20px;
   vertical-align: 50px;
   line-height: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: #1968fc;
-  margin-right: 50px;
 }
 
 .page-header {
@@ -24,19 +27,20 @@
     margin-right: 160px;
   }
   .page-header__navigation {
-    font-family: "Work Sans", sans-serif;
-    line-height: 20px;
     box-sizing: border-box;
-    font-size: 14px;
     width: 640px;
     margin-left: 220px;
     display: flex;
     justify-content: center;
   }
   .page-header__navigation_item {
+    line-height: 20px;
+    font-family: "Mulish", sans-serif;
     padding: 15px 20px 20px 20px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
+    font-weight: 600;
   }
   .page-header__button {
     font-family: "Mulish", sans-serif;
@@ -88,18 +92,19 @@
   .headline__title {
     font-family: "Mulish", sans-serif;
     font-weight: 600;
-    letter-spacing: 1px;
-    width: 500px;
+    width: 600px;
     font-size: 40px;
     line-height: 60px;
+    color: #11223f;
   }
   .headline__description {
     width: 600px;
     margin-top: 20px;
     font-family: "Mulish", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     line-height: 40px;
+    color: #11223f;
   }
   .headline__button-large {
     font-family: "Mulish", sans-serif;
@@ -204,8 +209,10 @@
 }
 .review_brackets {
   position: absolute;
+  width: 60px;
+  height: 46px;
   top: 40px;
-  right: 35px;
+  left: 440px;
 }
 .review_image {
   margin-top: 40px;
@@ -227,11 +234,9 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 30px;
-  color: #1967fa;
 }
 .review_text {
   margin: 40px;
-  margin-top: 42px;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -476,13 +481,16 @@
   }
   .feature_header {
     display: flex;
-    background-color: #f3f7ff;
   }
   .feature_header_icon {
     width: 120px;
     height: 120px;
   }
   .feature_header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
     margin: 20px;
     font-family: "Mulish", sans-serif;
     font-weight: 600;
@@ -495,6 +503,7 @@
     margin: 40px;
     font-family: "Mulish", sans-serif;
     font-weight: 400;
+    color: #11223f;
     font-size: 16px;
     line-height: 30px;
   }

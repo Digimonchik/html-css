@@ -44,12 +44,16 @@
     }
     &_header {
       display: flex;
-      background-color: #f3f7ff;
+
       &_icon {
         width: 120px;
         height: 120px;
       }
       &_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
         margin: 20px;
         font-family: "Mulish", sans-serif;
         font-weight: 600;
@@ -63,6 +67,7 @@
       margin: 40px;
       font-family: "Mulish", sans-serif;
       font-weight: 400;
+      color: #11223f;
       font-size: 16px;
       line-height: 30px;
     }

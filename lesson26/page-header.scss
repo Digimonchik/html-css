@@ -2,14 +2,17 @@
 .logo {
   display: flex;
   &__text {
-    padding: 10px 15px 15px 15px;
+    padding-left: 15px;
     font-family: "Mulish", sans-serif;
     font-weight: 600;
     font-size: 20px;
     vertical-align: 50px;
     line-height: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #1968fc;
-    margin-right: 50px;
   }
 }
 .page-header {
@@ -22,18 +25,19 @@
     margin-right: 160px;
 
     &__navigation {
-      font-family: "Work Sans", sans-serif;
-      line-height: 20px;
       box-sizing: border-box;
-      font-size: 14px;
       width: 640px;
       margin-left: 220px;
       display: flex;
       justify-content: center;
       &_item {
+        line-height: 20px;
+        font-family: "Mulish", sans-serif;
         padding: 15px 20px 20px 20px;
+        font-size: 14px;
         text-decoration: none;
         color: black;
+        font-weight: 600;
       }
     }
     &__button {

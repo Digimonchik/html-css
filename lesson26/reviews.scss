@@ -18,8 +18,10 @@
   position: relative;
   &_brackets {
     position: absolute;
+    width: 60px;
+    height: 46px;
     top: 40px;
-    right: 35px;
+    left: 440px;
   }
   &_image {
     margin-top: 40px;
@@ -41,11 +43,9 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 30px;
-    color: #1967fa;
   }
   &_text {
     margin: 40px;
-    margin-top: 42px;
     font-family: "Mulish", sans-serif;
     font-weight: 400;
     font-size: 16px;
