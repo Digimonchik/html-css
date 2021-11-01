@@ -7,94 +7,93 @@
     margin-right: 160px;
     display: flex;
     justify-content: space-between;
-    &__review {
-      background-color: white;
-      box-sizing: border-box;
-      box-shadow: 0px 20px 60px 0px #3145f41a;
-      width: 540px;
-      height: 280px;
-      position: relative;
-      &_brackets {
-        position: absolute;
-        top: 40px;
-        right: 40px;
-      }
-      &_image {
-        margin-top: 40px;
-        margin-left: 40px;
-      }
-      &_description {
-        position: absolute;
-        left: 160px;
-        top: 60px;
-      }
-      &_name {
-        font-family: "Mulish", sans-serif;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 30px;
-      }
-      &_info {
-        font-family: "Mulish", sans-serif;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 30px;
-        color: #1967fa;
-      }
-      &_text {
-        margin: 40px;
-        font-family: "Mulish", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        color: #11223f;
-      }
-    }
   }
+}
+.review {
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 60px 0px #3145f41a;
+  width: 540px;
+  height: 280px;
+  position: relative;
+  &_brackets {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  &_image {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  &_description {
+    position: absolute;
+    left: 160px;
+    top: 60px;
+  }
+  &_name {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  &_info {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1967fa;
+  }
+  &_text {
+    margin: 40px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #11223f;
+  }
+}
+.review {
   @include for-small {
-    &__card {
-      background-color: white;
-      box-sizing: border-box;
-      margin: 50px;
-      width: 540px;
-      height: 280px;
-
-      position: relative;
-      &_brackets {
-        position: absolute;
-        top: 40px;
-        right: 40px;
-      }
-      &_image {
-        margin-top: 40px;
-        margin-left: 40px;
-      }
-      &_description {
-        position: absolute;
-        left: 160px;
-        top: 60px;
-      }
-      &_name {
-        font-family: "Mulish", sans-serif;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 30px;
-      }
-      &_info {
-        font-family: "Mulish", sans-serif;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 30px;
-        color: #1967fa;
-      }
-      &_review {
-        margin: 40px;
-        font-family: "Mulish", sans-serif;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 30px;
-        color: #11223f;
-      }
+    background-color: white;
+    box-sizing: border-box;
+    margin: 50px;
+    width: 540px;
+    height: 280px;
+    position: relative;
+    &_brackets {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+    }
+    &_image {
+      margin-top: 40px;
+      margin-left: 40px;
+    }
+    &_description {
+      position: absolute;
+      left: 160px;
+      top: 60px;
+    }
+    &_name {
+      font-family: "Mulish", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 30px;
+    }
+    &_info {
+      font-family: "Mulish", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 30px;
+      color: #1967fa;
+    }
+    &_review {
+      margin: 40px;
+      font-family: "Mulish", sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 30px;
+      color: #11223f;
     }
   }
 }

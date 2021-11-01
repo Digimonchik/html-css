@@ -1,3 +1,17 @@
+.logo {
+  display: flex;
+}
+.logo__text {
+  padding: 10px 15px 15px 15px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  vertical-align: 50px;
+  line-height: 30px;
+  color: #1968fc;
+  margin-right: 50px;
+}
+
 .page-header {
   box-sizing: border-box;
 }
@@ -7,19 +21,6 @@
     display: flex;
     margin-left: 160px;
     margin-right: 160px;
-  }
-  .page-header__logo {
-    display: flex;
-  }
-  .page-header__logo_text {
-    padding: 10px 15px 15px 15px;
-    font-family: "Mulish", sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    vertical-align: 50px;
-    line-height: 30px;
-    color: #1968fc;
-    margin-right: 50px;
   }
   .page-header__navigation {
     font-family: "Work Sans", sans-serif;
@@ -41,11 +42,13 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
-    width: 180px;
+    min-width: 180px;
     height: 50px;
     text-transform: uppercase;
     color: white;
     background-color: #1968fc;
+    border: none;
+    outline: none;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -187,52 +190,54 @@
     display: flex;
     justify-content: space-between;
   }
-  .reviews__review {
-    background-color: white;
-    box-sizing: border-box;
-    box-shadow: 0px 20px 60px 0px #3145f41a;
-    width: 540px;
-    height: 280px;
-    position: relative;
-  }
-  .reviews__review_brackets {
-    position: absolute;
-    top: 40px;
-    right: 40px;
-  }
-  .reviews__review_image {
-    margin-top: 40px;
-    margin-left: 40px;
-  }
-  .reviews__review_description {
-    position: absolute;
-    left: 160px;
-    top: 60px;
-  }
-  .reviews__review_name {
-    font-family: "Mulish", sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
-  }
-  .reviews__review_info {
-    font-family: "Mulish", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 30px;
-    color: #1967fa;
-  }
-  .reviews__review_text {
-    margin: 40px;
-    font-family: "Mulish", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #11223f;
-  }
 }
+
+.review {
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 60px 0px #3145f41a;
+  width: 540px;
+  height: 280px;
+  position: relative;
+}
+.review_brackets {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.review_image {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.review_description {
+  position: absolute;
+  left: 160px;
+  top: 60px;
+}
+.review_name {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+.review_info {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  color: #1967fa;
+}
+.review_text {
+  margin: 40px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #11223f;
+}
+
 @media screen and (max-width: 1024px) {
-  .reviews__card {
+  .review {
     background-color: white;
     box-sizing: border-box;
     margin: 50px;
@@ -240,34 +245,34 @@
     height: 280px;
     position: relative;
   }
-  .reviews__card_brackets {
+  .review_brackets {
     position: absolute;
     top: 40px;
     right: 40px;
   }
-  .reviews__card_image {
+  .review_image {
     margin-top: 40px;
     margin-left: 40px;
   }
-  .reviews__card_description {
+  .review_description {
     position: absolute;
     left: 160px;
     top: 60px;
   }
-  .reviews__card_name {
+  .review_name {
     font-family: "Mulish", sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
   }
-  .reviews__card_info {
+  .review_info {
     font-family: "Mulish", sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 30px;
     color: #1967fa;
   }
-  .reviews__card_review {
+  .review_review {
     margin: 40px;
     font-family: "Mulish", sans-serif;
     font-weight: 600;
