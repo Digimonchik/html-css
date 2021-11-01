@@ -683,7 +683,7 @@
   .consultation__image {
     display: none;
   }
-  .consultation__header {
+  .consultation__title {
     color: white;
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
