@@ -2,7 +2,7 @@
   display: flex;
 }
 .logo__text {
-  padding-left: 15px;
+  padding-left: 10px;
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -29,9 +29,9 @@
   .page-header__navigation {
     box-sizing: border-box;
     width: 640px;
-    margin-left: 220px;
+    margin-right: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
   .page-header__navigation_item {
     line-height: 20px;
@@ -564,35 +564,10 @@
     margin-top: 125px;
     margin-left: 60px;
   }
-  .users__cards {
+  .users_cards {
     display: flex;
     flex-wrap: wrap;
     margin-left: 60px;
-  }
-  .users__card {
-    width: 250px;
-    height: 190px;
-    background-color: white;
-    margin-bottom: 20px;
-  }
-  .users__card:nth-child(n+1) {
-    margin-right: 20px;
-  }
-  .users__card_header {
-    margin: 20px;
-    font-family: "Mulish", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 40px;
-    color: #1967fa;
-  }
-  .users__card_description {
-    font-family: "Mulish", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    margin: 0px 20px 20px 20px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -606,21 +581,24 @@
     margin-left: 160px;
     margin-bottom: 60px;
   }
-  .users__cards {
+  .users_cards {
     display: flex;
     flex-wrap: wrap;
     margin-left: 160px;
   }
-  .users__card {
+}
+
+@media screen and (max-width: 1024px) {
+  .user {
     width: 360px;
     height: 160px;
     background-color: white;
     margin-bottom: 20px;
   }
-  .users__card:nth-child(n+1) {
+  .user:nth-child(n+1) {
     margin-right: 20px;
   }
-  .users__card_header {
+  .user_header {
     margin: 20px;
     font-family: "Mulish", sans-serif;
     text-transform: uppercase;
@@ -629,7 +607,34 @@
     line-height: 40px;
     color: #1967fa;
   }
-  .users__card_description {
+  .user_description {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px 20px 20px 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .user {
+    width: 360px;
+    height: 160px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .user:nth-child(n+1) {
+    margin-right: 20px;
+  }
+  .user_header {
+    margin: 20px;
+    font-family: "Mulish", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #1967fa;
+  }
+  .user_description {
     font-family: "Mulish", sans-serif;
     font-weight: 400;
     font-size: 16px;

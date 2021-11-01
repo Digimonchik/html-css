@@ -2,7 +2,7 @@
 .logo {
   display: flex;
   &__text {
-    padding-left: 15px;
+    padding-left: 10px;
     font-family: "Mulish", sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -27,9 +27,9 @@
     &__navigation {
       box-sizing: border-box;
       width: 640px;
-      margin-left: 220px;
+      margin-right: 20px;
       display: flex;
-      justify-content: center;
+      justify-content: flex-end;
       &_item {
         line-height: 20px;
         font-family: "Mulish", sans-serif;
