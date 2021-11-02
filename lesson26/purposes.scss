@@ -15,18 +15,6 @@
     &__cards {
       margin-right: 60px;
       margin-left: 60px;
-      &_card {
-        background-color: white;
-        display: flex;
-        margin-bottom: 40px;
-        &_description {
-          margin: 20px;
-          font-family: "Mulish", sans-serif;
-          font-weight: 600;
-          font-size: 18px;
-          line-height: 40px;
-        }
-      }
     }
   }
   @include for-large {
@@ -44,19 +32,33 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      &_card {
-        display: flex;
-        background-color: white;
-        margin-bottom: 40px;
-        width: 540px;
-        height: 80px;
-        &_description {
-          margin: 20px;
-          font-family: "Mulish", sans-serif;
-          font-weight: 600;
-          font-size: 18px;
-          line-height: 40px;
-        }
+    }
+  }
+  .purpose {
+    @include for-small {
+      background-color: white;
+      display: flex;
+      margin-bottom: 40px;
+      &__description {
+        margin: 20px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
+      }
+    }
+    @include for-large {
+      display: flex;
+      background-color: white;
+      margin-bottom: 40px;
+      width: 540px;
+      height: 80px;
+      &__description {
+        margin: 20px;
+        font-family: "Mulish", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 40px;
       }
     }
   }

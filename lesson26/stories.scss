@@ -12,30 +12,8 @@
       margin-bottom: 50px;
     }
     &__cards {
+      flex-direction: row;
       display: flex;
-    }
-    &__card {
-      margin-right: 60px;
-      position: relative;
-      padding-left: 60px;
-      margin-bottom: 40px;
-      &_image {
-        position: absolute;
-        left: 0px;
-      }
-      &_header {
-        font-family: "Mulish", sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 40px;
-      }
-      &_description {
-        font-family: "Mulish", sans-serif;
-        width: 420px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-      }
     }
   }
   @include for-small {
@@ -50,27 +28,52 @@
       margin-right: 60px;
       margin-bottom: 50px;
     }
-    &__card {
-      margin-right: 60px;
-      position: relative;
-      padding-left: 120px;
-      margin-bottom: 40px;
-      &_image {
-        position: absolute;
-        left: 60px;
-      }
-      &_header {
-        font-family: "Mulish", sans-serif;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 40px;
-      }
-      &_description {
-        font-family: "Mulish", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-      }
+  }
+}
+.story {
+  @include for-large {
+    margin-right: 60px;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 40px;
+    &__image {
+      position: absolute;
+      left: 0px;
+    }
+    &__header {
+      font-family: "Mulish", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+    }
+    &__description {
+      font-family: "Mulish", sans-serif;
+      width: 420px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+  @include for-small {
+    margin-right: 60px;
+    position: relative;
+    padding-left: 120px;
+    margin-bottom: 40px;
+    &__image {
+      position: absolute;
+      left: 60px;
+    }
+    &__header {
+      font-family: "Mulish", sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+    }
+    &__description {
+      font-family: "Mulish", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
     }
   }
 }
