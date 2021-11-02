@@ -11,5 +11,6 @@ body {
 .page {
   @include for-small {
     max-width: 320px;
+    box-sizing: border-box;
   }
 }

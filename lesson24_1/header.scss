@@ -66,8 +66,10 @@
     }
   }
   @include for-small {
+    box-sizing: border-box;
+    padding-left: 15px;
     display: flex;
-    width: 100%;
+    width: 320px;
     height: 64px;
     &__logo {
       display: flex;

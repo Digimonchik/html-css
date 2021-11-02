@@ -59,14 +59,16 @@
   }
   @include for-small {
     &__info {
-      padding: 35px 15px 35px 15px;
+      padding-top: 35px;
       &_main {
+        margin-left: 15px;
         font-family: "Work Sans", sans-serif;
         font-size: 50px;
         line-height: 50px;
         font-weight: 700;
       }
       &_description {
+        margin-left: 15px;
         padding-top: 24px;
         margin-bottom: 15px;
         font-family: "Work Sans", sans-serif;
@@ -76,8 +78,9 @@
       }
     }
     &__button {
+      margin-left: 15px;
       margin-top: 15px;
-      width: 100%;
+      width: 290px;
       height: 48px;
       border-radius: 2px;
       background-color: #3040c4;
