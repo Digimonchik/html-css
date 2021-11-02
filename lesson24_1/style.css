@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1399px) {
   .header {
     box-sizing: border-box;
     padding: 40px 130px 0px 130px;
@@ -63,7 +63,7 @@
     color: black;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1399px) {
   .header {
     display: flex;
     width: 100%;
@@ -114,7 +114,7 @@
   background-color: #f3c6bd;
   position: relative;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1399px) {
   .headline {
     width: 1400px;
     background-color: #f3c6bd;
@@ -170,7 +170,7 @@
     height: 448px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1399px) {
   .headline__info {
     padding: 35px 15px 35px 15px;
   }
@@ -217,7 +217,7 @@
 .order {
   background-color: #f4f5f7;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1399px) {
   .order {
     width: 1400px;
     height: 390px;
@@ -280,7 +280,7 @@
     line-height: 13px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1399px) {
   .order__image {
     width: 200px;
     height: 220px;
@@ -336,7 +336,7 @@
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1399px) {
   .footer {
     width: 1400px;
   }
@@ -407,7 +407,7 @@
     margin-right: 60px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1399px) {
   .footer__logo {
     padding-top: 40px;
     display: flex;
@@ -494,7 +494,7 @@
 .audience {
   background-color: rgba(0, 161, 198, 0.07);
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1399px) {
   .audience {
     padding-left: 130px;
     padding-right: 130px;
@@ -567,7 +567,7 @@
     background-color: #3141c5;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1399px) {
   .audience {
     display: flex;
     justify-content: space-around;
@@ -638,6 +638,12 @@
 body {
   display: flex;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 1399px) {
+  .page {
+    max-width: 320px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

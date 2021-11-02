@@ -1,13 +1,13 @@
 $sm: 320px;
-$lg: 1400px;
+$lg: 1399px;
 
 @mixin for-small {
-  @media screen and (max-width: $sm) {
+  @media screen and (max-width: $lg) {
     @content;
   }
 }
 @mixin for-medium {
-  @media screen and (min-width: $sm) {
+  @media screen and (min-width: $lg) {
     @content;
   }
 }
