@@ -55,30 +55,15 @@
     }
   }
   @include for-small {
+    padding-left: 80px;
     box-sizing: border-box;
     display: flex;
-    padding-bottom: 80px;
-    padding-top: 40px;
-    padding-left: 80px;
     width: 640px;
     &__navigation {
       display: none;
     }
     &__button {
       display: none;
-    }
-    &__logo {
-      &_text {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        font-family: "Mulish", sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 30px;
-        margin-left: 10px;
-        color: blue;
-      }
     }
   }
 }

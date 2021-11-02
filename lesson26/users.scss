@@ -37,8 +37,8 @@
 }
 .user {
   @include for-small {
-    width: 360px;
-    height: 160px;
+    width: 250px;
+    height: 190px;
     background-color: white;
     margin-bottom: 20px;
     &:nth-child(n + 1) {

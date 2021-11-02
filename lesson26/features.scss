@@ -10,6 +10,10 @@
       font-size: 30px;
       line-height: 60px;
     }
+    &__list {
+      display: flex;
+      justify-content: space-between;
+    }
   }
   @include for-small {
     margin-top: 125px;
@@ -22,10 +26,6 @@
       line-height: 60px;
       margin-left: 60px;
     }
-  }
-  &__list {
-    display: flex;
-    justify-content: space-between;
   }
 }
 .feature {

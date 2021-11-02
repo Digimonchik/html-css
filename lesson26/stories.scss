@@ -32,6 +32,7 @@
 }
 .story-card {
   @include for-large {
+    width: 420px;
     margin-right: 60px;
     position: relative;
     padding-left: 60px;
